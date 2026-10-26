@@ -21,6 +21,7 @@ Never publish a finding whose cost lines are not verified.
 - Evidence: FPL petition vs final: Debby -20.5%, Helene +9.0%, Milton -5.2% (S001, S003). Debby logistics +37.5% while contractors -25.9%.
 - Tags: estimates, ETR, regulatory
 - Post-worthy: yes. Duke Energy Florida also revised Helene capital from $77.1M to $27.3M (S004).
+- Note (2026-10-26): the gap is mostly true-up, not disallowance. Non-incremental removals were $2.5M to $4.6M per storm (L0039-L0041, S001) against $16M to $48M swings. Debby "other" fell 75% ($7.7M to $1.9M); check against source pages before explaining.
 
 ## 2026-10-25: Storm contractor rates ran 60% to 80% above set-rate contracts
 - Status: verified in source text, not yet in data
