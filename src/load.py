@@ -28,10 +28,11 @@ def read(name):
         return list(csv.DictReader(f))
 
 
-def validate(categories, stages, sources, events, lines):
+def validate(categories, stages, total_roles, sources, events, lines):
     errors, warnings = [], []
     cat_codes = {c["code"] for c in categories}
     stage_codes = {s["code"] for s in stages}
+    role_codes = {r["code"] for r in total_roles}
     source_ids = {s["source_id"] for s in sources}
     event_ids = {e["event_id"] for e in events}
 
@@ -67,6 +68,10 @@ def validate(categories, stages, sources, events, lines):
             errors.append(f"{lid}: category '{l['category']}' not in categories")
         if l["stage"] not in stage_codes:
             errors.append(f"{lid}: stage '{l['stage']}' not in stages")
+        if l["category"] == "total" and l["total_role"] not in role_codes:
+            errors.append(f"{lid}: total line needs a total_role from total_roles.csv")
+        if l["category"] != "total" and l["total_role"]:
+            errors.append(f"{lid}: total_role is only for total lines")
         if l["source_id"] not in source_ids:
             errors.append(f"{lid}: source_id '{l['source_id']}' not in sources")
         if l["precision"] not in PRECISIONS:
@@ -74,12 +79,14 @@ def validate(categories, stages, sources, events, lines):
         if l["verified"] not in {"yes", "no"}:
             errors.append(f"{lid}: verified must be yes or no")
         try:
-            if float(l["amount_usd"]) < 0:
-                errors.append(f"{lid}: negative amount")
+            # Credits within a breakdown (e.g. external billings) may be negative; totals may not.
+            if float(l["amount_usd"]) < 0 and (l["category"] == "total" or "credit" not in l["notes"].lower()):
+                errors.append(f"{lid}: negative amount (only allowed on a component line noted as a credit)")
         except ValueError:
             errors.append(f"{lid}: amount_usd '{l['amount_usd']}' is not a number")
 
-    # Category breakdowns must add up to the stated total for the same event, stage and source.
+    # Category breakdowns must add up to the stated gross total for the same event, stage and source.
+    # Where a filing gives separate gross totals (e.g. distribution and transmission), they are summed.
     groups = defaultdict(lambda: {"parts": 0.0, "n": 0, "total": None})
     for l in lines:
         try:
@@ -88,7 +95,8 @@ def validate(categories, stages, sources, events, lines):
             continue
         g = groups[(l["event_id"], l["stage"], l["source_id"])]
         if l["category"] == "total":
-            g["total"] = amt
+            if l["total_role"] == "gross_total":
+                g["total"] = (g["total"] or 0) + amt
         else:
             g["parts"] += amt
             g["n"] += 1
@@ -107,24 +115,25 @@ def validate(categories, stages, sources, events, lines):
     return errors, warnings
 
 
-def build(categories, stages, sources, events, lines):
+def build(categories, stages, total_roles, sources, events, lines):
     # Build in a local temp folder, then copy: SQLite can fail on synced or mounted folders.
     DB.parent.mkdir(exist_ok=True)
     tmp = Path(tempfile.mkdtemp()) / DB.name
     con = sqlite3.connect(tmp)
-    for name, rows in (("categories", categories), ("stages", stages), ("sources", sources), ("events", events), ("cost_lines", lines)):
+    for name, rows in (("categories", categories), ("stages", stages), ("total_roles", total_roles), ("sources", sources), ("events", events), ("cost_lines", lines)):
         cols = list(rows[0].keys())
         con.execute(f"CREATE TABLE {name} ({', '.join(cols)})")
         con.executemany(f"INSERT INTO {name} VALUES ({', '.join('?' for _ in cols)})", [[r[c] if r[c] != "" else None for c in cols] for r in rows])
     con.execute("""
         CREATE VIEW cost_lines_full AS
-        SELECT l.*, CAST(l.amount_usd AS REAL) AS amount,
+        SELECT l.*, CAST(l.amount_usd AS REAL) AS amount, c.bucket,
                e.utility, e.state, e.ownership, e.storm_name, e.storm_type, CAST(e.storm_year AS INTEGER) AS storm_year,
                CAST(e.customers_affected AS REAL) AS customers_affected, e.customers_measure, e.customers_precision,
                s.publisher, s.title AS source_title, s.url AS source_url
         FROM cost_lines l
         JOIN events e USING (event_id)
         JOIN sources s USING (source_id)
+        LEFT JOIN categories c ON c.code = l.category
     """)
     con.commit()
     con.close()
@@ -132,7 +141,7 @@ def build(categories, stages, sources, events, lines):
 
 
 def main():
-    tables = [read(n) for n in ("categories.csv", "stages.csv", "sources.csv", "events.csv", "cost_lines.csv")]
+    tables = [read(n) for n in ("categories.csv", "stages.csv", "total_roles.csv", "sources.csv", "events.csv", "cost_lines.csv")]
     errors, warnings = validate(*tables)
     for w in warnings:
         print(f"warning: {w}")
@@ -142,7 +151,7 @@ def main():
         print(f"\n{len(errors)} error(s). Database not built.")
         sys.exit(1)
     build(*tables)
-    print(f"Built {DB.relative_to(ROOT)}: {len(tables[2])} sources, {len(tables[3])} events, {len(tables[4])} cost lines.")
+    print(f"Built {DB.relative_to(ROOT)}: {len(tables[3])} sources, {len(tables[4])} events, {len(tables[5])} cost lines.")
 
 
 if __name__ == "__main__":

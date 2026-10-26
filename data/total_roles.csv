@@ -1,0 +1,12 @@
+code,description
+gross_total,Sum of the cost categories for this event and stage; the figure to compare across storms
+gross_total_cross_check,The same gross total from a second source; do not add it to the first
+approved_amount,Amount a commission found prudent or approved
+disallowance,Amount cut by a commission or settlement
+non_incremental_adjustment,Costs removed as normal operations (non-incremental)
+transferred,Costs moved to another proceeding
+deferred_om,Incremental O&M deferred to a regulatory asset or storm fund
+incremental_om,Incremental O&M only (capital excluded)
+partial_period,Charges booked in one period only; use the cumulative row for the event
+interim_charge,Interim customer charge; may include reserve replenishment and interest
+jurisdictional_total,Retail or jurisdictional share of a total
