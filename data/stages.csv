@@ -7,3 +7,4 @@ final_approved,Final amount approved by the commission
 reported_actual,Actual cost reported in a commission or utility report outside a recovery case
 disallowed,Amount the commission refused to allow
 non_incremental_removed,Costs removed as non-incremental (normal O&M); not a prudence finding
+transferred,Costs moved to another proceeding; neither approved nor denied in this one

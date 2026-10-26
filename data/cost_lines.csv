@@ -1,66 +1,75 @@
 line_id,event_id,category,category_as_filed,stage,amount_usd,precision,source_id,page,verified,notes
-L0001,E001,payroll_regular,Regular payroll,final_approved,3018000,exact,S001,,no,
-L0002,E001,payroll_overtime,Overtime payroll,final_approved,8650000,exact,S001,,no,
-L0003,E001,contractors,Contractors,final_approved,51638000,exact,S001,,no,Contractors include mutual assistance utilities
-L0004,E001,line_clearing,Line clearing,final_approved,23066000,exact,S001,,no,
-L0005,E001,vehicles_fuel,Vehicle and fuel,final_approved,3898000,exact,S001,,no,
-L0006,E001,materials,Materials and supplies,final_approved,3111000,exact,S001,,no,
-L0007,E001,logistics,Logistics,final_approved,11889000,exact,S001,,no,
-L0008,E001,other,Other,final_approved,1910000,exact,S001,,no,
-L0009,E001,total,Total expense,final_approved,107180000,exact,S001,,no,
-L0010,E002,payroll_regular,Regular payroll,final_approved,4730000,exact,S001,,no,
-L0011,E002,payroll_overtime,Overtime payroll,final_approved,11174000,exact,S001,,no,
-L0012,E002,contractors,Contractors,final_approved,101605000,exact,S001,,no,Contractors include mutual assistance utilities
-L0013,E002,line_clearing,Line clearing,final_approved,30649000,exact,S001,,no,
-L0014,E002,vehicles_fuel,Vehicle and fuel,final_approved,6456000,exact,S001,,no,
-L0015,E002,materials,Materials and supplies,final_approved,9309000,exact,S001,,no,
-L0016,E002,logistics,Logistics,final_approved,25771000,exact,S001,,no,
-L0017,E002,other,Other,final_approved,3227000,exact,S001,,no,
-L0018,E002,total,Total expense,final_approved,192922000,exact,S001,,no,
-L0019,E003,payroll_regular,Regular payroll,final_approved,11335000,exact,S001,,no,
-L0020,E003,payroll_overtime,Overtime payroll,final_approved,24938000,exact,S001,,no,
-L0021,E003,contractors,Contractors,final_approved,471521000,exact,S001,,no,Contractors include mutual assistance utilities
-L0022,E003,line_clearing,Line clearing,final_approved,148305000,exact,S001,,no,
-L0023,E003,vehicles_fuel,Vehicle and fuel,final_approved,22063000,exact,S001,,no,
-L0024,E003,materials,Materials and supplies,final_approved,43639000,exact,S001,,no,
-L0025,E003,logistics,Logistics,final_approved,144709000,exact,S001,,no,
-L0026,E003,other,Other,final_approved,9605000,exact,S001,,no,
-L0027,E003,total,Total expense,final_approved,876115000,exact,S001,,no,
-L0028,E001,payroll_regular,Regular payroll and related,petition_estimate,4407000,exact,S003,,no,
-L0029,E001,payroll_overtime,Overtime payroll and related,petition_estimate,8497000,exact,S003,,no,
-L0030,E001,contractors,Contractors,petition_estimate,69698000,exact,S003,,no,
-L0031,E001,line_clearing,Line clearing,petition_estimate,27272000,exact,S003,,no,
-L0032,E001,vehicles_fuel,Vehicle and fuel,petition_estimate,4197000,exact,S003,,no,
-L0033,E001,materials,Materials and supplies,petition_estimate,4448000,exact,S003,,no,
-L0034,E001,logistics,Logistics,petition_estimate,8644000,exact,S003,,no,
-L0035,E001,other,Other,petition_estimate,7664000,exact,S003,,no,
-L0036,E001,total,Total restoration costs,petition_estimate,134826000,exact,S003,,no,
-L0037,E002,total,Total restoration costs,petition_estimate,177009000,exact,S003,,no,Distribution $170.417M; category split not in petition
-L0038,E003,total,Total restoration costs,petition_estimate,923979000,exact,S003,,no,Distribution $885.940M; category split not in petition
-L0039,E001,total,ICCA non-incremental adjustments,non_incremental_removed,3591000,exact,S001,,no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
-L0040,E002,total,ICCA non-incremental adjustments,non_incremental_removed,2476000,exact,S001,,no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
-L0041,E003,total,ICCA non-incremental adjustments,non_incremental_removed,4632000,exact,S001,,no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
-L0042,E004,materials,Materials,reported_actual,5400000,exact,S005,,no,
-L0043,E004,payroll,Company labor,reported_actual,17700000,exact,S005,,no,
-L0044,E004,contractors,Outside labor,reported_actual,56500000,exact,S005,,no,Mutual aid not separated; outside labor is closest
-L0045,E004,vehicles_fuel,Transportation,reported_actual,700000,exact,S005,,no,
-L0046,E004,other,Other,reported_actual,6900000,exact,S005,,no,
-L0047,E004,total,Total,reported_actual,87200000,exact,S005,,no,
-L0048,E005,materials,Materials,reported_actual,4208439,exact,S005,,no,
-L0049,E005,payroll,Company labor,reported_actual,8291911,exact,S005,,no,
-L0050,E005,contractors,Outside labor,reported_actual,19994908,exact,S005,,no,Mutual aid not separated; outside labor is closest
-L0051,E005,vehicles_fuel,Transportation,reported_actual,491039,exact,S005,,no,
-L0052,E005,other,Other,reported_actual,6013703,exact,S005,,no,
-L0053,E005,total,Total,reported_actual,39000000,exact,S005,,no,
-L0054,E006,materials,Materials,reported_actual,58662,exact,S005,,no,
-L0055,E006,payroll,Company labor,reported_actual,1018694,exact,S005,,no,
-L0056,E006,contractors,Outside labor,reported_actual,634965,exact,S005,,no,Mutual aid not separated; outside labor is closest
-L0057,E006,vehicles_fuel,Transportation,reported_actual,187164,exact,S005,,no,
-L0058,E006,other,Other,reported_actual,537819,exact,S005,,no,
-L0059,E006,total,Total,reported_actual,2437304,exact,S005,,no,
-L0060,E007,total,Storm restoration charge,interim_charge_approved,1100000000,approximate,S006,,no,Reported as $1.1 billion
-L0061,E008,total,Storm restoration charge,interim_charge_approved,464000000,exact,S006,,no,
-L0062,E009,total,Approved storm costs,final_approved,861000000,exact,S007,,no,About $191M already in rates; ~$668M to be securitized
-L0063,E009,total,Disallowed,disallowed,500000000,lower_bound,S007,,no,More than $500M; nearly $400M was interest (carrying charges)
-L0064,E010,total,Storm costs,requested,182000000,approximate,S009,,no,About $182 million
-L0065,E011,total,Storm costs,requested,60000000,lower_bound,S010,,no,Over $60 million across 11 storms
+L0001,E001,payroll_regular,Regular payroll,final_approved,3018000,exact,S001,3,no,Table 1
+L0002,E001,payroll_overtime,Overtime payroll,final_approved,8650000,exact,S001,3,no,Table 2
+L0003,E001,contractors,Contractors,final_approved,51638000,exact,S001,4,no,Table 3. Contractors include mutual assistance utilities
+L0004,E001,line_clearing,Line clearing,final_approved,23066000,exact,S001,5,no,Table 4
+L0005,E001,vehicles_fuel,Vehicle and fuel,final_approved,3898000,exact,S001,6,no,"Table 5. Includes utilization of FPL-owned vehicles, which is non-incremental under ICCA (p.10)"
+L0006,E001,materials,Materials and supplies,final_approved,3111000,exact,S001,6,no,Table 6
+L0007,E001,logistics,Logistics,final_approved,11889000,exact,S001,7,no,Table 7
+L0008,E001,other,Other,final_approved,1910000,exact,S001,8,no,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
+L0009,E001,total,Total expense,final_approved,107180000,exact,S001,8,no,"Table 9. Gross incurred cost, before capitalization ($14.887M, Table 10 p.9) and ICCA removals ($3.591M, Table 11 p.10). Retail recoverable $88.324M (Table 12 p.11)"
+L0010,E002,payroll_regular,Regular payroll,final_approved,4730000,exact,S001,3,no,Table 1
+L0011,E002,payroll_overtime,Overtime payroll,final_approved,11174000,exact,S001,3,no,Table 2
+L0012,E002,contractors,Contractors,final_approved,101605000,exact,S001,4,no,Table 3. Contractors include mutual assistance utilities
+L0013,E002,line_clearing,Line clearing,final_approved,30649000,exact,S001,5,no,Table 4
+L0014,E002,vehicles_fuel,Vehicle and fuel,final_approved,6456000,exact,S001,6,no,"Table 5. Includes utilization of FPL-owned vehicles, which is non-incremental under ICCA (p.10)"
+L0015,E002,materials,Materials and supplies,final_approved,9309000,exact,S001,6,no,Table 6
+L0016,E002,logistics,Logistics,final_approved,25771000,exact,S001,7,no,Table 7
+L0017,E002,other,Other,final_approved,3227000,exact,S001,8,no,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
+L0018,E002,total,Total expense,final_approved,192922000,exact,S001,8,no,"Table 9. Gross incurred cost, before capitalization ($22.006M, Table 10 p.9) and ICCA removals ($2.476M, Table 11 p.10). Retail recoverable $167.613M (Table 12 p.11)"
+L0019,E003,payroll_regular,Regular payroll,final_approved,11335000,exact,S001,3,no,Table 1
+L0020,E003,payroll_overtime,Overtime payroll,final_approved,24938000,exact,S001,3,no,Table 2
+L0021,E003,contractors,Contractors,final_approved,471521000,exact,S001,4,no,Table 3. Contractors include mutual assistance utilities
+L0022,E003,line_clearing,Line clearing,final_approved,148305000,exact,S001,5,no,Table 4
+L0023,E003,vehicles_fuel,Vehicle and fuel,final_approved,22063000,exact,S001,6,no,"Table 5. Includes utilization of FPL-owned vehicles, which is non-incremental under ICCA (p.10)"
+L0024,E003,materials,Materials and supplies,final_approved,43639000,exact,S001,6,no,Table 6
+L0025,E003,logistics,Logistics,final_approved,144709000,exact,S001,7,no,Table 7
+L0026,E003,other,Other,final_approved,9605000,exact,S001,8,no,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
+L0027,E003,total,Total expense,final_approved,876115000,exact,S001,8,no,"Table 9. Gross incurred cost, before capitalization ($94.198M, Table 10 p.9) and ICCA removals ($4.632M, Table 11 p.10). Retail recoverable $774.372M (Table 12 p.11)"
+L0028,E001,payroll_regular,Regular payroll and related,petition_estimate,4407000,exact,S003,PDF p.18 (Appendix B),no,
+L0029,E001,payroll_overtime,Overtime payroll and related,petition_estimate,8497000,exact,S003,PDF p.18 (Appendix B),no,
+L0030,E001,contractors,Contractors,petition_estimate,69698000,exact,S003,PDF p.18 (Appendix B),no,
+L0031,E001,line_clearing,Line clearing,petition_estimate,27272000,exact,S003,PDF p.18 (Appendix B),no,
+L0032,E001,vehicles_fuel,Vehicle and fuel,petition_estimate,4197000,exact,S003,PDF p.18 (Appendix B),no,
+L0033,E001,materials,Materials and supplies,petition_estimate,4448000,exact,S003,PDF p.18 (Appendix B),no,
+L0034,E001,logistics,Logistics,petition_estimate,8644000,exact,S003,PDF p.18 (Appendix B),no,
+L0035,E001,other,Other,petition_estimate,7664000,exact,S003,PDF p.18 (Appendix B),no,
+L0036,E001,total,Total restoration costs,petition_estimate,134826000,exact,S003,PDF p.18 (Appendix B),no,"Gross estimate, before capitalizable costs and ICCA adjustments"
+L0037,E002,total,Total restoration costs,petition_estimate,177009000,exact,S003,"PDF p.19 (Appendix C, line 10)",no,"Distribution $170.417M. Gross estimate, before capitalizable costs ($17.190M) and ICCA adjustments ($1.588M)"
+L0038,E003,total,Total restoration costs,petition_estimate,923979000,exact,S003,"PDF p.20 (Appendix D, line 1)",no,Distribution $885.940M; Milton appendix is by function only. Gross estimate
+L0039,E001,total,ICCA non-incremental adjustments,non_incremental_removed,3591000,exact,S001,10 (Table 11),no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
+L0040,E002,total,ICCA non-incremental adjustments,non_incremental_removed,2476000,exact,S001,10 (Table 11),no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
+L0041,E003,total,ICCA non-incremental adjustments,non_incremental_removed,4632000,exact,S001,10 (Table 11),no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
+L0042,E004,materials,Materials,reported_actual,5400000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
+L0043,E004,payroll,Company labor,reported_actual,17700000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
+L0044,E004,contractors,Outside labor,reported_actual,56500000,approximate,S005,report p.37 (Table 2),no,Mutual aid not separated; outside labor is closest; Duke figures rounded to $0.1M
+L0045,E004,vehicles_fuel,Transportation,reported_actual,700000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
+L0046,E004,other,Other,reported_actual,6900000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
+L0047,E004,total,Total,reported_actual,87200000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
+L0048,E005,materials,Materials,reported_actual,4208439,exact,S005,report p.37 (Table 2),no,
+L0049,E005,payroll,Company labor,reported_actual,8291911,exact,S005,report p.37 (Table 2),no,
+L0050,E005,contractors,Outside labor,reported_actual,19994908,exact,S005,report p.37 (Table 2),no,Mutual aid not separated; outside labor is closest
+L0051,E005,vehicles_fuel,Transportation,reported_actual,491039,exact,S005,report p.37 (Table 2),no,
+L0052,E005,other,Other,reported_actual,6013703,exact,S005,report p.37 (Table 2),no,
+L0053,E005,total,Total,reported_actual,39000000,exact,S005,report p.37 (Table 2),no,
+L0054,E006,materials,Materials,reported_actual,58662,exact,S005,report p.37 (Table 2),no,
+L0055,E006,payroll,Company labor,reported_actual,1018694,exact,S005,report p.37 (Table 2),no,
+L0056,E006,contractors,Outside labor,reported_actual,634965,exact,S005,report p.37 (Table 2),no,Mutual aid not separated; outside labor is closest
+L0057,E006,vehicles_fuel,Transportation,reported_actual,187164,exact,S005,report p.37 (Table 2),no,
+L0058,E006,other,Other,reported_actual,537819,exact,S005,report p.37 (Table 2),no,
+L0059,E006,total,Total,reported_actual,2437304,exact,S005,report p.37 (Table 2),no,
+L0060,E007,total,Storm restoration charge,interim_charge_approved,1100000000,approximate,S006,lede and Details paragraph,no,"Reported as $1.1 billion. Interim charge; may include storm reserve replenishment and interest, so not a restoration cost"
+L0061,E008,total,Storm restoration charge,interim_charge_approved,464000000,approximate,S006,lede and Details paragraph,no,"Reported as $464 million. Interim charge; may include storm reserve replenishment and interest, so not a restoration cost"
+L0062,E009,total,"Storm Costs (Authority adjusted, prudently incurred)",final_approved,861478785,exact,S013,2 (Table 1),no,"Net Eligible for Recovery $667,930,008 after storm reserve, mutual aid credit and RAM CTA credit"
+L0063,E009,total,Storm Costs (Eversource request),requested,965008424,exact,S013,2 (Table 1),no,"Was ""more than $500M disallowed"" (news). Split: restoration cost reductions are the $103,529,639 gap to the approved amount; the other $396,710,288 was retrospective carrying charges (interest), all denied, kept out of cost lines per the extraction guide"
+L0064,E010,total,Total Storm Costs,requested,183572459,exact,S014,Exhibit RMD-1,no,"Includes $21,462,848 of estimated costs after 11/30/2024. Was ""about $182 million"" (news)"
+L0065,E011,total,Storm costs,requested,60000000,lower_bound,S010,paragraph 2,no,Over $60 million across 11 storms
+L0066,E002,payroll_regular,Regular Payroll and Related Costs,petition_estimate,4155000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0067,E002,payroll_overtime,Overtime Payroll and Related Costs,petition_estimate,11125000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0068,E002,contractors,Contractors,petition_estimate,94621000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0069,E002,line_clearing,Line Clearing,petition_estimate,31303000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0070,E002,vehicles_fuel,Vehicle & Fuel,petition_estimate,2556000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0071,E002,materials,Materials & Supplies,petition_estimate,6883000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0072,E002,logistics,Logistics,petition_estimate,24328000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0073,E002,other,Other,petition_estimate,2038000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
+L0074,E010,total,Storm costs found prudent (sum of order components),final_approved,173314324,exact,S015,PDF p.2,no,"Derived: distribution capital $142,524,912 + O&M $29,821,014 + transmission capital $737,815 + generation capital $230,583. Recovered in this docket: $172,345,926; the transmission and generation capital goes to normal ratemaking"

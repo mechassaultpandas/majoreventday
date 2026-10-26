@@ -33,8 +33,16 @@ Category detail where both stages exist:
 | Hurricane Debby | contractors | -25.9% |
 | Hurricane Debby | line_clearing | -15.4% |
 | Hurricane Debby | vehicles_fuel | -7.1% |
+| Hurricane Helene | line_clearing | -2.1% |
+| Hurricane Helene | payroll_overtime | +0.4% |
 | Hurricane Debby | payroll_overtime | +1.8% |
+| Hurricane Helene | logistics | +5.9% |
+| Hurricane Helene | contractors | +7.4% |
+| Hurricane Helene | payroll_regular | +13.8% |
+| Hurricane Helene | materials | +35.2% |
 | Hurricane Debby | logistics | +37.5% |
+| Hurricane Helene | other | +58.3% |
+| Hurricane Helene | vehicles_fuel | +152.6% |
 
 ## Cost per customer (within the same customer measure only)
 
@@ -42,6 +50,7 @@ Category detail where both stages exist:
 | --- | --- | --- | --- | --- |
 | Duke Power, December 2002 ice storm | peak_out | 1,375,000 | 63 | nominal dollars; adjust for inflation before comparing |
 | Progress Energy Carolinas, December 2002 ice storm | peak_out | 560,660 | 70 | nominal dollars; adjust for inflation before comparing |
+| Entergy Louisiana, Hurricane Francine | peak_out | 250,000 | 693 | customer count is a lower bound, so this is an upper bound |
 | Dominion (North Carolina), December 2002 ice storm | service_points_interrupted | 91,000 | 27 | nominal dollars; adjust for inflation before comparing |
 | Florida Power & Light, Hurricane Helene | total_affected | 680,000 | 284 | customer count is a lower bound, so this is an upper bound |
 | Florida Power & Light, Hurricane Debby | total_affected | 250,000 | 429 | approximate customer count |
@@ -51,9 +60,9 @@ Category detail where both stages exist:
 
 | State | Events | Cost lines | Verified |
 | --- | --- | --- | --- |
-| FL | 5 | 43 | 0 |
+| FL | 5 | 51 | 0 |
 | NC | 3 | 18 | 0 |
 | TN | 1 | 0 | 0 |
 | MA | 1 | 1 | 0 |
-| LA | 1 | 1 | 0 |
+| LA | 1 | 2 | 0 |
 | CT | 1 | 2 | 0 |

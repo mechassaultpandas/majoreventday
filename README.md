@@ -33,7 +33,9 @@ If a filing uses a category that does not fit cleanly, record it under its close
 
 ## Stages
 
-`petition_estimate`, `testimony_update`, `requested`, `final_approved`, `disallowed`, `non_incremental_removed`.
+`petition_estimate`, `testimony_update`, `requested`, `interim_charge_approved`, `final_approved`, `reported_actual`, `disallowed`, `non_incremental_removed`, `transferred`.
+
+`transferred` is for costs a settlement or order moves to another proceeding (for example a later rate case). They are neither approved nor denied, so don't record them as `disallowed`.
 
 ## Verification
 
