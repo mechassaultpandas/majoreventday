@@ -1,0 +1,9 @@
+code,description
+petition_estimate,Estimate in the utility's initial petition
+testimony_update,Revised figure in later testimony or discovery
+requested,Amount the utility asked to recover
+interim_charge_approved,Interim storm charge approved before final review
+final_approved,Final amount approved by the commission
+reported_actual,Actual cost reported in a commission or utility report outside a recovery case
+disallowed,Amount the commission refused to allow
+non_incremental_removed,Costs removed as non-incremental (normal O&M); not a prudence finding

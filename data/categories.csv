@@ -1,0 +1,11 @@
+code,label,description
+payroll_regular,Regular payroll,Utility regular-time payroll and related costs
+payroll_overtime,Overtime payroll,Utility overtime payroll and related costs
+contractors,Contractors and mutual aid,Line contractors and mutual assistance utilities
+line_clearing,Line clearing,Vegetation and line clearing contractors
+logistics,Logistics,"Lodging, meals, staging sites, base camps"
+materials,Materials and supplies,Materials and supplies
+vehicles_fuel,Vehicles and fuel,"Vehicles, fleet and fuel"
+other,Other,"Anything else, including affiliate payroll"
+total,Total,Total restoration cost when no breakdown exists
+payroll,Utility payroll (not split),Utility payroll where regular and overtime are not reported separately

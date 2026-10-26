@@ -1,0 +1,13 @@
+event_id,utility,state,ownership,storm_name,storm_type,storm_year,customers_affected,customers_measure,customers_precision,customers_source_id,days_to_restore,days_source_id,reg_status,notes
+E001,Florida Power & Light,FL,IOU,Hurricane Debby,hurricane,2024,250000,total_affected,approximate,S011,1,S011,final_approved,"Source says nearly 250,000; essentially restored in one day"
+E002,Florida Power & Light,FL,IOU,Hurricane Helene,hurricane,2024,680000,total_affected,lower_bound,S011,3,S011,final_approved,"Source says more than 680,000"
+E003,Florida Power & Light,FL,IOU,Hurricane Milton,hurricane,2024,2000000,total_affected,lower_bound,S011,5,S011,final_approved,"Source says more than two million"
+E004,Duke Power,NC,IOU,December 2002 ice storm,ice_storm,2002,1375000,peak_out,exact,S005,,,reported_actual,Nominal 2002 dollars
+E005,Progress Energy Carolinas,NC,IOU,December 2002 ice storm,ice_storm,2002,560660,peak_out,exact,S005,,,reported_actual,Nominal 2002 dollars
+E006,Dominion (North Carolina),NC,IOU,December 2002 ice storm,ice_storm,2002,91000,service_points_interrupted,exact,S005,,,reported_actual,Customer measure not comparable with peak_out
+E007,Duke Energy Florida,FL,IOU,2024 season (Debby; Helene; Milton),hurricane,2024,,,,,,,interim_charge_approved,Three storms combined; per-storm detail in Docket 20240173-EI exhibits
+E008,Tampa Electric,FL,IOU,2024 season (Debby; Helene; Milton),hurricane,2024,,,,,,,interim_charge_approved,Three storms combined
+E009,Eversource (Connecticut Light & Power),CT,IOU,Catastrophic storms 2018-2023,multiple,2023,,,,,,,final_approved,Batch of storms each above $4M threshold
+E010,Entergy Louisiana,LA,IOU,Hurricane Francine,hurricane,2024,,,,,,,under_review,LPSC hired Henderson Ridge Consulting (~$188k) to review
+E011,Eversource (NSTAR Electric),MA,IOU,2022 storms (11 events),multiple,2022,,,,,,,requested,July 2022 heat event alone >$12M
+E012,Nashville Electric Service,TN,municipal,Winter Storm Fern,winter_storm,2026,231749,peak_out,exact,S012,12,S012,not_applicable,No cost total captured; contractor rate premium finding
