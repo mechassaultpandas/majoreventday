@@ -7,7 +7,7 @@ L0005,E001,vehicles_fuel,Vehicle and fuel,final_approved,,3898000,exact,S001,6,n
 L0006,E001,materials,Materials and supplies,final_approved,,3111000,exact,S001,6,no,Table 6
 L0007,E001,logistics,Logistics,final_approved,,11889000,exact,S001,7,no,Table 7
 L0008,E001,other,Other,final_approved,,1910000,exact,S001,8,no,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
-L0009,E001,total,Total expense,final_approved,gross_total,107180000,exact,S001,8,no,"Table 9. Gross incurred cost, before capitalization ($14.887M, Table 10 p.9) and ICCA removals ($3.591M, Table 11 p.10). Retail recoverable $88.324M (Table 12 p.11)"
+L0009,E001,total,Total expense,final_approved,gross_total,107180000,exact,S001,8,yes,"Table 9. Gross incurred cost, before capitalization ($14.887M, Table 10 p.9) and ICCA removals ($3.591M, Table 11 p.10). Retail recoverable $88.324M (Table 12 p.11)"
 L0010,E002,payroll_regular,Regular payroll,final_approved,,4730000,exact,S001,3,no,Table 1
 L0011,E002,payroll_overtime,Overtime payroll,final_approved,,11174000,exact,S001,3,no,Table 2
 L0012,E002,contractors,Contractors,final_approved,,101605000,exact,S001,4,no,Table 3. Contractors include mutual assistance utilities
@@ -16,16 +16,16 @@ L0014,E002,vehicles_fuel,Vehicle and fuel,final_approved,,6456000,exact,S001,6,n
 L0015,E002,materials,Materials and supplies,final_approved,,9309000,exact,S001,6,no,Table 6
 L0016,E002,logistics,Logistics,final_approved,,25771000,exact,S001,7,no,Table 7
 L0017,E002,other,Other,final_approved,,3227000,exact,S001,8,no,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
-L0018,E002,total,Total expense,final_approved,gross_total,192922000,exact,S001,8,no,"Table 9. Gross incurred cost, before capitalization ($22.006M, Table 10 p.9) and ICCA removals ($2.476M, Table 11 p.10). Retail recoverable $167.613M (Table 12 p.11)"
-L0019,E003,payroll_regular,Regular payroll,final_approved,,11335000,exact,S001,3,no,Table 1
-L0020,E003,payroll_overtime,Overtime payroll,final_approved,,24938000,exact,S001,3,no,Table 2
-L0021,E003,contractors,Contractors,final_approved,,471521000,exact,S001,4,no,Table 3. Contractors include mutual assistance utilities
-L0022,E003,line_clearing,Line clearing,final_approved,,148305000,exact,S001,5,no,Table 4
-L0023,E003,vehicles_fuel,Vehicle and fuel,final_approved,,22063000,exact,S001,6,no,"Table 5. Includes utilization of FPL-owned vehicles, which is non-incremental under ICCA (p.10)"
-L0024,E003,materials,Materials and supplies,final_approved,,43639000,exact,S001,6,no,Table 6
-L0025,E003,logistics,Logistics,final_approved,,144709000,exact,S001,7,no,Table 7
-L0026,E003,other,Other,final_approved,,9605000,exact,S001,8,no,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
-L0027,E003,total,Total expense,final_approved,gross_total,876115000,exact,S001,8,no,"Table 9. Gross incurred cost, before capitalization ($94.198M, Table 10 p.9) and ICCA removals ($4.632M, Table 11 p.10). Retail recoverable $774.372M (Table 12 p.11)"
+L0018,E002,total,Total expense,final_approved,gross_total,192922000,exact,S001,8,yes,"Table 9. Gross incurred cost, before capitalization ($22.006M, Table 10 p.9) and ICCA removals ($2.476M, Table 11 p.10). Retail recoverable $167.613M (Table 12 p.11)"
+L0019,E003,payroll_regular,Regular payroll,final_approved,,11335000,exact,S001,3,yes,Table 1
+L0020,E003,payroll_overtime,Overtime payroll,final_approved,,24938000,exact,S001,3,yes,Table 2
+L0021,E003,contractors,Contractors,final_approved,,471521000,exact,S001,4,yes,Table 3. Contractors include mutual assistance utilities
+L0022,E003,line_clearing,Line clearing,final_approved,,148305000,exact,S001,5,yes,Table 4
+L0023,E003,vehicles_fuel,Vehicle and fuel,final_approved,,22063000,exact,S001,6,yes,"Table 5. Includes utilization of FPL-owned vehicles, which is non-incremental under ICCA (p.10)"
+L0024,E003,materials,Materials and supplies,final_approved,,43639000,exact,S001,6,yes,Table 6
+L0025,E003,logistics,Logistics,final_approved,,144709000,exact,S001,7,yes,Table 7
+L0026,E003,other,Other,final_approved,,9605000,exact,S001,8,yes,"Table 8. Includes payroll and overhead of affiliate personnel and employee assistance (p.8), so part of this is labor"
+L0027,E003,total,Total expense,final_approved,gross_total,876115000,exact,S001,8,yes,"Table 9. Gross incurred cost, before capitalization ($94.198M, Table 10 p.9) and ICCA removals ($4.632M, Table 11 p.10). Retail recoverable $774.372M (Table 12 p.11)"
 L0028,E001,payroll_regular,Regular payroll and related,petition_estimate,,4407000,exact,S003,PDF p.18 (Appendix B),no,
 L0029,E001,payroll_overtime,Overtime payroll and related,petition_estimate,,8497000,exact,S003,PDF p.18 (Appendix B),no,
 L0030,E001,contractors,Contractors,petition_estimate,,69698000,exact,S003,PDF p.18 (Appendix B),no,
@@ -34,24 +34,24 @@ L0032,E001,vehicles_fuel,Vehicle and fuel,petition_estimate,,4197000,exact,S003,
 L0033,E001,materials,Materials and supplies,petition_estimate,,4448000,exact,S003,PDF p.18 (Appendix B),no,
 L0034,E001,logistics,Logistics,petition_estimate,,8644000,exact,S003,PDF p.18 (Appendix B),no,
 L0035,E001,other,Other,petition_estimate,,7664000,exact,S003,PDF p.18 (Appendix B),no,
-L0036,E001,total,Total restoration costs,petition_estimate,gross_total,134826000,exact,S003,PDF p.18 (Appendix B),no,"Gross estimate, before capitalizable costs and ICCA adjustments"
-L0037,E002,total,Total restoration costs,petition_estimate,gross_total,177009000,exact,S003,"PDF p.19 (Appendix C, line 10)",no,"Distribution $170.417M. Gross estimate, before capitalizable costs ($17.190M) and ICCA adjustments ($1.588M)"
-L0038,E003,total,Total restoration costs,petition_estimate,gross_total,923979000,exact,S003,"PDF p.20 (Appendix D, line 1)",no,Distribution $885.940M; Milton appendix is by function only. Gross estimate
-L0039,E001,total,ICCA non-incremental adjustments,non_incremental_removed,non_incremental_adjustment,3591000,exact,S001,10 (Table 11),no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
-L0040,E002,total,ICCA non-incremental adjustments,non_incremental_removed,non_incremental_adjustment,2476000,exact,S001,10 (Table 11),no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
-L0041,E003,total,ICCA non-incremental adjustments,non_incremental_removed,non_incremental_adjustment,4632000,exact,S001,10 (Table 11),no,Rule 25-6.0143 F.A.C.; not a prudence disallowance
-L0042,E004,materials,Materials,reported_actual,,5400000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
-L0043,E004,payroll,Company labor,reported_actual,,17700000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
-L0044,E004,contractors,Outside labor,reported_actual,,56500000,approximate,S005,report p.37 (Table 2),no,Mutual aid not separated; outside labor is closest; Duke figures rounded to $0.1M
-L0045,E004,vehicles_fuel,Transportation,reported_actual,,700000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
-L0046,E004,other,Other,reported_actual,,6900000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
-L0047,E004,total,Total,reported_actual,gross_total,87200000,approximate,S005,report p.37 (Table 2),no,Duke figures rounded to $0.1M
+L0036,E001,total,Total restoration costs,petition_estimate,gross_total,134826000,exact,S003,PDF p.18 (Appendix B),yes,"Gross estimate, before capitalizable costs and ICCA adjustments"
+L0037,E002,total,Total restoration costs,petition_estimate,gross_total,177009000,exact,S003,"PDF p.19 (Appendix C, line 10)",yes,"Distribution $170.417M. Gross estimate, before capitalizable costs ($17.190M) and ICCA adjustments ($1.588M)"
+L0038,E003,total,Total restoration costs,petition_estimate,gross_total,923979000,exact,S003,"PDF p.20 (Appendix D, line 1)",yes,Distribution $885.940M; Milton appendix is by function only. Gross estimate
+L0039,E001,total,ICCA non-incremental adjustments,non_incremental_removed,non_incremental_adjustment,3591000,exact,S001,10 (Table 11),yes,Rule 25-6.0143 F.A.C.; not a prudence disallowance
+L0040,E002,total,ICCA non-incremental adjustments,non_incremental_removed,non_incremental_adjustment,2476000,exact,S001,10 (Table 11),yes,Rule 25-6.0143 F.A.C.; not a prudence disallowance
+L0041,E003,total,ICCA non-incremental adjustments,non_incremental_removed,non_incremental_adjustment,4632000,exact,S001,10 (Table 11),yes,Rule 25-6.0143 F.A.C.; not a prudence disallowance
+L0042,E004,materials,Materials,reported_actual,,5400000,approximate,S005,report p.37 (Table 2),yes,Duke figures rounded to $0.1M
+L0043,E004,payroll,Company labor,reported_actual,,17700000,approximate,S005,report p.37 (Table 2),yes,Duke figures rounded to $0.1M
+L0044,E004,contractors,Outside labor,reported_actual,,56500000,approximate,S005,report p.37 (Table 2),yes,Mutual aid not separated; outside labor is closest; Duke figures rounded to $0.1M
+L0045,E004,vehicles_fuel,Transportation,reported_actual,,700000,approximate,S005,report p.37 (Table 2),yes,Duke figures rounded to $0.1M
+L0046,E004,other,Other,reported_actual,,6900000,approximate,S005,report p.37 (Table 2),yes,Duke figures rounded to $0.1M
+L0047,E004,total,Total,reported_actual,gross_total,87200000,approximate,S005,report p.37 (Table 2),yes,Duke figures rounded to $0.1M
 L0048,E005,materials,Materials,reported_actual,,4208439,exact,S005,report p.37 (Table 2),no,
 L0049,E005,payroll,Company labor,reported_actual,,8291911,exact,S005,report p.37 (Table 2),no,
 L0050,E005,contractors,Outside labor,reported_actual,,19994908,exact,S005,report p.37 (Table 2),no,Mutual aid not separated; outside labor is closest
 L0051,E005,vehicles_fuel,Transportation,reported_actual,,491039,exact,S005,report p.37 (Table 2),no,
 L0052,E005,other,Other,reported_actual,,6013703,exact,S005,report p.37 (Table 2),no,
-L0053,E005,total,Total,reported_actual,gross_total,39000000,exact,S005,report p.37 (Table 2),no,
+L0053,E005,total,Total,reported_actual,gross_total,39000000,exact,S005,report p.37 (Table 2),yes,
 L0054,E006,materials,Materials,reported_actual,,58662,exact,S005,report p.37 (Table 2),no,
 L0055,E006,payroll,Company labor,reported_actual,,1018694,exact,S005,report p.37 (Table 2),no,
 L0056,E006,contractors,Outside labor,reported_actual,,634965,exact,S005,report p.37 (Table 2),no,Mutual aid not separated; outside labor is closest
@@ -60,19 +60,19 @@ L0058,E006,other,Other,reported_actual,,537819,exact,S005,report p.37 (Table 2),
 L0059,E006,total,Total,reported_actual,gross_total,2437304,exact,S005,report p.37 (Table 2),no,
 L0060,E007,total,Storm restoration charge,interim_charge_approved,interim_charge,1100000000,approximate,S006,lede and Details paragraph,no,"Reported as $1.1 billion. Interim charge; may include storm reserve replenishment and interest, so not a restoration cost"
 L0061,E008,total,Storm restoration charge,interim_charge_approved,interim_charge,464000000,approximate,S006,lede and Details paragraph,no,"Reported as $464 million. Interim charge; may include storm reserve replenishment and interest, so not a restoration cost"
-L0062,E009,total,"Storm Costs (Authority adjusted, prudently incurred)",final_approved,approved_amount,861478785,exact,S013,2 (Table 1),no,"Net Eligible for Recovery $667,930,008 after storm reserve, mutual aid credit and RAM CTA credit"
-L0063,E009,total,Storm Costs (Eversource request),requested,gross_total,965008424,exact,S013,2 (Table 1),no,"Was ""more than $500M disallowed"" (news). Split: restoration cost reductions are the $103,529,639 gap to the approved amount; the other $396,710,288 was retrospective carrying charges (interest), all denied, kept out of cost lines per the extraction guide"
-L0064,E010,total,Total Storm Costs,requested,gross_total,183572459,exact,S014,Exhibit RMD-1,no,"Includes $21,462,848 of estimated costs after 11/30/2024. Was ""about $182 million"" (news)"
-L0065,E011,total,Storm costs,requested,gross_total,60000000,lower_bound,S010,paragraph 2,no,Over $60 million across 11 storms
-L0066,E002,payroll_regular,Regular Payroll and Related Costs,petition_estimate,,4155000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0067,E002,payroll_overtime,Overtime Payroll and Related Costs,petition_estimate,,11125000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0068,E002,contractors,Contractors,petition_estimate,,94621000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0069,E002,line_clearing,Line Clearing,petition_estimate,,31303000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0070,E002,vehicles_fuel,Vehicle & Fuel,petition_estimate,,2556000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0071,E002,materials,Materials & Supplies,petition_estimate,,6883000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0072,E002,logistics,Logistics,petition_estimate,,24328000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0073,E002,other,Other,petition_estimate,,2038000,exact,S003,PDF p.19 (Appendix C),no,"Total column, $000s"
-L0074,E010,total,Storm costs found prudent (sum of order components),final_approved,approved_amount,173314324,exact,S015,PDF p.2,no,"Derived: distribution capital $142,524,912 + O&M $29,821,014 + transmission capital $737,815 + generation capital $230,583. Recovered in this docket: $172,345,926; the transmission and generation capital goes to normal ratemaking"
+L0062,E009,total,"Storm Costs (Authority adjusted, prudently incurred)",final_approved,approved_amount,861478785,exact,S013,2 (Table 1),yes,"Net Eligible for Recovery $667,930,008 after storm reserve, mutual aid credit and RAM CTA credit"
+L0063,E009,total,Storm Costs (Eversource request),requested,gross_total,965008424,exact,S013,2 (Table 1),yes,"Was ""more than $500M disallowed"" (news). Split: restoration cost reductions are the $103,529,639 gap to the approved amount; the other $396,710,288 was retrospective carrying charges (interest), all denied, kept out of cost lines per the extraction guide"
+L0064,E010,total,Total Storm Costs,requested,gross_total,183572459,exact,S014,Exhibit RMD-1,yes,"Includes $21,462,848 of estimated costs after 11/30/2024. Was ""about $182 million"" (news)"
+L0065,E011,total,Storm costs,requested,gross_total,60000000,lower_bound,S010,paragraph 2,yes,Over $60 million across 11 storms
+L0066,E002,payroll_regular,Regular Payroll and Related Costs,petition_estimate,,4155000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0067,E002,payroll_overtime,Overtime Payroll and Related Costs,petition_estimate,,11125000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0068,E002,contractors,Contractors,petition_estimate,,94621000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0069,E002,line_clearing,Line Clearing,petition_estimate,,31303000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0070,E002,vehicles_fuel,Vehicle & Fuel,petition_estimate,,2556000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0071,E002,materials,Materials & Supplies,petition_estimate,,6883000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0072,E002,logistics,Logistics,petition_estimate,,24328000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0073,E002,other,Other,petition_estimate,,2038000,exact,S003,PDF p.19 (Appendix C),yes,"Total column, $000s"
+L0074,E010,total,Storm costs found prudent (sum of order components),final_approved,approved_amount,173314324,exact,S015,PDF p.2,yes,"Derived: distribution capital $142,524,912 + O&M $29,821,014 + transmission capital $737,815 + generation capital $230,583. Recovered in this docket: $172,345,926; the transmission and generation capital goes to normal ratemaking"
 L0075,E013,payroll,Direct Labor,requested,,1580839,exact,S016,Storm Summary sheet,no,
 L0076,E013,materials,Materials,requested,,41374,exact,S016,Storm Summary sheet,no,
 L0077,E013,payroll,Payroll-Related Overheads,requested,,76398,exact,S016,Storm Summary sheet,no,
@@ -81,7 +81,7 @@ L0079,E013,contractors,Outside Contractors/Vendors,requested,,3281189,exact,S016
 L0080,E013,logistics,Food and Lodging,requested,,60746,exact,S016,Storm Summary sheet,no,
 L0081,E013,other,Employee Expenses/Other,requested,,10703,exact,S016,Storm Summary sheet,no,
 L0082,E013,total,Total,requested,gross_total,5089825,exact,S016,Storm Summary sheet,no,
-L0083,E013,total,Ineligible expenses (not a single catastrophic event),disallowed,disallowance,5089780,exact,S013,39,no,Table 11
+L0083,E013,total,Ineligible expenses (not a single catastrophic event),disallowed,disallowance,5089780,exact,S013,39,yes,Table 11
 L0084,E014,payroll,Direct Labor,requested,,3659415,exact,S016,Storm Summary sheet,no,
 L0085,E014,materials,Materials,requested,,102033,exact,S016,Storm Summary sheet,no,
 L0086,E014,payroll,Payroll-Related Overheads,requested,,452966,exact,S016,Storm Summary sheet,no,
@@ -122,14 +122,14 @@ L0120,E018,contractors,Outside Contractors/Vendors,requested,,16076873,exact,S01
 L0121,E018,logistics,Food and Lodging,requested,,294202,exact,S016,Storm Summary sheet,no,
 L0122,E018,other,Employee Expenses/Other,requested,,112405,exact,S016,Storm Summary sheet,no,
 L0123,E018,total,Total,requested,gross_total,19471193,exact,S016,Storm Summary sheet,no,
-L0124,E019,payroll,Direct Labor,requested,,29972711,exact,S016,Storm Summary sheet,no,
-L0125,E019,materials,Materials,requested,,3662985,exact,S016,Storm Summary sheet,no,
-L0126,E019,payroll,Payroll-Related Overheads,requested,,6675087,exact,S016,Storm Summary sheet,no,
-L0127,E019,vehicles_fuel,Vehicles,requested,,1296183,exact,S016,Storm Summary sheet,no,
-L0128,E019,contractors,Outside Contractors/Vendors,requested,,176736971,exact,S016,Storm Summary sheet,no,
-L0129,E019,logistics,Food and Lodging,requested,,13245975,exact,S016,Storm Summary sheet,no,
-L0130,E019,other,Employee Expenses/Other,requested,,319233,exact,S016,Storm Summary sheet,no,
-L0131,E019,total,Total,requested,gross_total,231909145,exact,S016,Storm Summary sheet,no,
+L0124,E019,payroll,Direct Labor,requested,,29972711,exact,S016,Storm Summary sheet,yes,
+L0125,E019,materials,Materials,requested,,3662985,exact,S016,Storm Summary sheet,yes,
+L0126,E019,payroll,Payroll-Related Overheads,requested,,6675087,exact,S016,Storm Summary sheet,yes,
+L0127,E019,vehicles_fuel,Vehicles,requested,,1296183,exact,S016,Storm Summary sheet,yes,
+L0128,E019,contractors,Outside Contractors/Vendors,requested,,176736971,exact,S016,Storm Summary sheet,yes,
+L0129,E019,logistics,Food and Lodging,requested,,13245975,exact,S016,Storm Summary sheet,yes,
+L0130,E019,other,Employee Expenses/Other,requested,,319233,exact,S016,Storm Summary sheet,yes,
+L0131,E019,total,Total,requested,gross_total,231909145,exact,S016,Storm Summary sheet,yes,
 L0132,E020,payroll,Direct Labor,requested,,2994459,exact,S016,Storm Summary sheet,no,
 L0133,E020,materials,Materials,requested,,305213,exact,S016,Storm Summary sheet,no,
 L0134,E020,payroll,Payroll-Related Overheads,requested,,467768,exact,S016,Storm Summary sheet,no,
@@ -233,7 +233,7 @@ L0231,E032,vehicles_fuel,Vehicles,requested,,653196,exact,S016,Storm Summary she
 L0232,E032,contractors,Outside Contractors/Vendors,requested,,129915936,exact,S016,Storm Summary sheet,no,
 L0233,E032,logistics,Food and Lodging,requested,,3251996,exact,S016,Storm Summary sheet,no,
 L0234,E032,other,Employee Expenses/Other,requested,,88461,exact,S016,Storm Summary sheet,no,
-L0235,E032,total,Total,requested,gross_total,140120472,exact,S016,Storm Summary sheet,no,
+L0235,E032,total,Total,requested,gross_total,140120472,exact,S016,Storm Summary sheet,yes,
 L0236,E033,payroll,Direct Labor,requested,,1647030,exact,S016,Storm Summary sheet,no,
 L0237,E033,materials,Materials,requested,,80569,exact,S016,Storm Summary sheet,no,
 L0238,E033,payroll,Payroll-Related Overheads,requested,,135243,exact,S016,Storm Summary sheet,no,
@@ -258,7 +258,7 @@ L0256,E035,contractors,Outside Contractors/Vendors,requested,,5144365,exact,S016
 L0257,E035,logistics,Food and Lodging,requested,,91365,exact,S016,Storm Summary sheet,no,
 L0258,E035,other,Employee Expenses/Other,requested,,5121,exact,S016,Storm Summary sheet,no,
 L0259,E035,total,Total,requested,gross_total,6391310,exact,S016,Storm Summary sheet,no,
-L0260,E035,total,Ineligible expenses (not a single catastrophic event),disallowed,disallowance,6325405,exact,S013,39,no,Table 11
+L0260,E035,total,Ineligible expenses (not a single catastrophic event),disallowed,disallowance,6325405,exact,S013,39,yes,Table 11
 L0261,E036,payroll,Direct Labor,requested,,469718,exact,S016,Storm Summary sheet,no,
 L0262,E036,materials,Materials,requested,,1414,exact,S016,Storm Summary sheet,no,
 L0263,E036,payroll,Payroll-Related Overheads,requested,,7624,exact,S016,Storm Summary sheet,no,
@@ -282,7 +282,7 @@ L0280,E038,vehicles_fuel,Vehicles,requested,,149801,exact,S016,Storm Summary she
 L0281,E038,contractors,Outside Contractors/Vendors,requested,,26991485,exact,S016,Storm Summary sheet,no,
 L0282,E038,logistics,Food and Lodging,requested,,825026,exact,S016,Storm Summary sheet,no,
 L0283,E038,other,Employee Expenses/Other,requested,,18311,exact,S016,Storm Summary sheet,no,
-L0284,E038,total,Total,requested,gross_total,29498827,exact,S016,Storm Summary sheet,no,
+L0284,E038,total,Total,requested,gross_total,29498827,exact,S016,Storm Summary sheet,yes,
 L0285,E039,payroll,Direct Labor,requested,,1174840,exact,S016,Storm Summary sheet,no,
 L0286,E039,materials,Materials,requested,,48010,exact,S016,Storm Summary sheet,no,
 L0287,E039,payroll,Payroll-Related Overheads,requested,,46907,exact,S016,Storm Summary sheet,no,
@@ -330,7 +330,7 @@ L0328,E044,vehicles_fuel,Vehicles,requested,,174327,exact,S016,Storm Summary she
 L0329,E044,contractors,Outside Contractors/Vendors,requested,,50130453,exact,S016,Storm Summary sheet,no,
 L0330,E044,logistics,Food and Lodging,requested,,3493949,exact,S016,Storm Summary sheet,no,
 L0331,E044,other,Employee Expenses/Other,requested,,70255,exact,S016,Storm Summary sheet,no,
-L0332,E044,total,Total,requested,gross_total,62739458,exact,S016,Storm Summary sheet,no,
+L0332,E044,total,Total,requested,gross_total,62739458,exact,S016,Storm Summary sheet,yes,
 L0333,E045,payroll,Direct Labor,requested,,919325,exact,S016,Storm Summary sheet,no,
 L0334,E045,materials,Materials,requested,,29525,exact,S016,Storm Summary sheet,no,
 L0335,E045,payroll,Payroll-Related Overheads,requested,,42520,exact,S016,Storm Summary sheet,no,
@@ -355,7 +355,7 @@ L0353,E047,contractors,Outside Contractors/Vendors,requested,,5059168,exact,S016
 L0354,E047,logistics,Food and Lodging,requested,,77514,exact,S016,Storm Summary sheet,no,
 L0355,E047,other,Employee Expenses/Other,requested,,4104,exact,S016,Storm Summary sheet,no,
 L0356,E047,total,Total,requested,gross_total,6369987,exact,S016,Storm Summary sheet,no,
-L0357,E047,total,Costs found imprudent,disallowed,disallowance,634000,approximate,S013,39,no,Table 11 fn.42
+L0357,E047,total,Costs found imprudent,disallowed,disallowance,634000,approximate,S013,39,yes,Table 11 fn.42
 L0358,E048,payroll,Direct Labor,requested,,243077,exact,S016,Storm Summary sheet,no,
 L0359,E048,materials,Materials,requested,,8199,exact,S016,Storm Summary sheet,no,
 L0360,E048,payroll,Payroll-Related Overheads,requested,,23586,exact,S016,Storm Summary sheet,no,
@@ -379,7 +379,7 @@ L0377,E050,vehicles_fuel,Vehicles,requested,,916834,exact,S016,Storm Summary she
 L0378,E050,contractors,Outside Contractors/Vendors,requested,,51161346,exact,S016,Storm Summary sheet,no,
 L0379,E050,logistics,Food and Lodging,requested,,2353212,exact,S016,Storm Summary sheet,no,
 L0380,E050,other,Employee Expenses/Other,requested,,39939,exact,S016,Storm Summary sheet,no,
-L0381,E050,total,Total,requested,gross_total,59500608,exact,S016,Storm Summary sheet,no,
+L0381,E050,total,Total,requested,gross_total,59500608,exact,S016,Storm Summary sheet,yes,
 L0382,E051,payroll,Direct Labor,requested,,2500691,exact,S016,Storm Summary sheet,no,
 L0383,E051,materials,Materials,requested,,35468,exact,S016,Storm Summary sheet,no,
 L0384,E051,payroll,Payroll-Related Overheads,requested,,59622,exact,S016,Storm Summary sheet,no,
@@ -396,7 +396,7 @@ L0394,E052,contractors,Outside Contractors/Vendors,requested,,2711387,exact,S016
 L0395,E052,logistics,Food and Lodging,requested,,66244,exact,S016,Storm Summary sheet,no,
 L0396,E052,other,Employee Expenses/Other,requested,,11451,exact,S016,Storm Summary sheet,no,
 L0397,E052,total,Total,requested,gross_total,4725229,exact,S016,Storm Summary sheet,no,
-L0398,E052,total,Ineligible expenses (not a single catastrophic event),disallowed,disallowance,4729847,exact,S013,39,no,Table 11
+L0398,E052,total,Ineligible expenses (not a single catastrophic event),disallowed,disallowance,4729847,exact,S013,39,yes,Table 11
 L0399,E053,payroll,Direct Labor,requested,,1301889,exact,S016,Storm Summary sheet,no,
 L0400,E053,materials,Materials,requested,,21513,exact,S016,Storm Summary sheet,no,
 L0401,E053,payroll,Payroll-Related Overheads,requested,,109156,exact,S016,Storm Summary sheet,no,
@@ -420,48 +420,48 @@ L0418,E055,vehicles_fuel,Vehicles,requested,,2104367,exact,S016,Storm Summary sh
 L0419,E055,contractors,Outside Contractors/Vendors,requested,,45558946,exact,S016,Storm Summary sheet,no,
 L0420,E055,logistics,Food and Lodging,requested,,1943093,exact,S016,Storm Summary sheet,no,
 L0421,E055,other,Employee Expenses/Other,requested,,50138,exact,S016,Storm Summary sheet,no,
-L0422,E055,total,Total,requested,gross_total,56958766,exact,S016,Storm Summary sheet,no,
-L0423,E056,payroll,Payroll,requested,,75070000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0424,E056,contractors,Contract Services,requested,,811920000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0425,E056,logistics,Hotels,requested,,18690000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0426,E056,other,Security,requested,,5120000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0427,E056,logistics,Logistics,requested,,144660000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0428,E056,materials,Materials & Supplies,requested,,31210000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0429,E056,vehicles_fuel,"Fleet, Fuel, & Transportation",requested,,19370000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0430,E056,other,Facilities,requested,,410000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0431,E056,logistics,Employee Expenses,requested,,670000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0432,E056,total,Totals Incurred,requested,gross_total,1107130000,approximate,S018,Bates 1002-1003,no,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
-L0433,E057,payroll,Payroll,requested,,80477585,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0434,E057,contractors,Contract Services,requested,,856986614,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0435,E057,logistics,Logistics,requested,,177347178,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0436,E057,materials,Materials and Supplies,requested,,31483667,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0437,E057,vehicles_fuel,Fleet/Fuel/Transportation,requested,,20213632,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0438,E057,logistics,Employee Expenses,requested,,704283,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0439,E057,total,Total System Restoration Costs,requested,gross_total,1167212959,exact,S019,Bates 1113,no,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
-L0440,E057,total,Incurred system restoration costs (application),requested,gross_total,1184700000,approximate,S020,3,no,"TLK-1 $1,167.2M plus $17.5M of May 2024 derecho pole/feeder costs moved from Docket 57271 (also counted in the May 2024 events). Excludes $2.9M estimated other expenses and $107.4M carrying costs"
-L0441,E057,total,Restoration costs found reasonable and necessary,final_approved,approved_amount,1074353443,exact,S020,13,no,Excludes carrying costs and $2.87M legal/consulting
-L0442,E057,total,Pole and feeder costs removed to a future rate case,transferred,transferred,78000000,exact,S020,8,no,"Not a prudence finding; moved out of this case, may be sought in a rate case"
-L0443,E057,total,Black-box distribution reduction (incl. carrying costs),disallowed,disallowance,22000000,exact,S020,8,no,Settlement reduction; includes carrying costs
-L0444,E057,total,Transmission restoration cost reduction (incl. carrying costs),disallowed,disallowance,440000,exact,S020,9,no,Finding of fact 39; also ordering paragraph PDF p.13
-L0445,E058,payroll,Payroll,requested,,35200000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 27.5 + transmission 7.7 ($M)
-L0446,E058,contractors,Contract Services,requested,,272600000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 260.6 + transmission 12.0 ($M)
-L0447,E058,logistics,Logistics,requested,,45800000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 45.7 + transmission 0.1 ($M)
-L0448,E058,materials,Materials and Supplies,requested,,20800000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 12.0 + transmission 8.8 ($M)
-L0449,E058,vehicles_fuel,Fleet/Fuel/Transportation,requested,,3300000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 3.0 + transmission 0.3 ($M)
-L0450,E058,logistics,Employee Expenses,requested,,800000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 0.8 + transmission 0 ($M)
-L0451,E058,total,Total Incurred,requested,gross_total,378500000,approximate,S021,printed p.8 (PDF p.11),no,Distribution 349.6 + transmission 28.9 ($M)
+L0422,E055,total,Total,requested,gross_total,56958766,exact,S016,Storm Summary sheet,yes,
+L0423,E056,payroll,Payroll,requested,,75070000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0424,E056,contractors,Contract Services,requested,,811920000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0425,E056,logistics,Hotels,requested,,18690000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0426,E056,other,Security,requested,,5120000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0427,E056,logistics,Logistics,requested,,144660000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0428,E056,materials,Materials & Supplies,requested,,31210000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0429,E056,vehicles_fuel,"Fleet, Fuel, & Transportation",requested,,19370000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0430,E056,other,Facilities,requested,,410000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0431,E056,logistics,Employee Expenses,requested,,670000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0432,E056,total,Totals Incurred,requested,gross_total,1107130000,approximate,S018,Bates 1002-1003,yes,Distribution + transmission; Contract Services includes mutual assistance and vegetation contractors
+L0433,E057,payroll,Payroll,requested,,80477585,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0434,E057,contractors,Contract Services,requested,,856986614,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0435,E057,logistics,Logistics,requested,,177347178,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0436,E057,materials,Materials and Supplies,requested,,31483667,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0437,E057,vehicles_fuel,Fleet/Fuel/Transportation,requested,,20213632,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0438,E057,logistics,Employee Expenses,requested,,704283,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0439,E057,total,Total System Restoration Costs,requested,gross_total,1167212959,exact,S019,Bates 1113,yes,"Incurred July 8 2024 to March 31 2025; Beryl, Francine and Enzo only (the $17.5M from Docket 57271 is added in the application total)"
+L0440,E057,total,Incurred system restoration costs (application),requested,gross_total,1184700000,approximate,S020,3,yes,"TLK-1 $1,167.2M plus $17.5M of May 2024 derecho pole/feeder costs moved from Docket 57271 (also counted in the May 2024 events). Excludes $2.9M estimated other expenses and $107.4M carrying costs"
+L0441,E057,total,Restoration costs found reasonable and necessary,final_approved,approved_amount,1074353443,exact,S020,13,yes,Excludes carrying costs and $2.87M legal/consulting
+L0442,E057,total,Pole and feeder costs removed to a future rate case,transferred,transferred,78000000,exact,S020,8,yes,"Not a prudence finding; moved out of this case, may be sought in a rate case"
+L0443,E057,total,Black-box distribution reduction (incl. carrying costs),disallowed,disallowance,22000000,exact,S020,8,yes,Settlement reduction; includes carrying costs
+L0444,E057,total,Transmission restoration cost reduction (incl. carrying costs),disallowed,disallowance,440000,exact,S020,9,yes,Finding of fact 39; also ordering paragraph PDF p.13
+L0445,E058,payroll,Payroll,requested,,35200000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 27.5 + transmission 7.7 ($M)
+L0446,E058,contractors,Contract Services,requested,,272600000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 260.6 + transmission 12.0 ($M)
+L0447,E058,logistics,Logistics,requested,,45800000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 45.7 + transmission 0.1 ($M)
+L0448,E058,materials,Materials and Supplies,requested,,20800000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 12.0 + transmission 8.8 ($M)
+L0449,E058,vehicles_fuel,Fleet/Fuel/Transportation,requested,,3300000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 3.0 + transmission 0.3 ($M)
+L0450,E058,logistics,Employee Expenses,requested,,800000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 0.8 + transmission 0 ($M)
+L0451,E058,total,Total Incurred,requested,gross_total,378500000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution 349.6 + transmission 28.9 ($M)
 L0452,E059,payroll,Payroll,requested,,4700000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
 L0453,E059,contractors,Contract Services,requested,,32700000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
 L0454,E059,logistics,Logistics,requested,,100000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
 L0455,E059,materials,Materials and Supplies,requested,,1300000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
 L0456,E059,vehicles_fuel,Fleet/Fuel/Transportation,requested,,700000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
 L0457,E059,logistics,Employee Expenses,requested,,100000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
-L0458,E059,total,Total Incurred,requested,gross_total,39600000,approximate,S021,printed p.8 (PDF p.11),no,Distribution only
-L0459,E060,total,"Distribution SRCs to be securitized, incl. carrying costs",final_approved,approved_amount,396325134,exact,S022,9,no,Includes carrying costs
-L0460,E060,total,Transmission SRCs reasonable and necessary,final_approved,approved_amount,28864500,exact,S022,9,no,
-L0461,E060,total,Black-box settlement reduction,disallowed,disallowance,10000000,exact,S022,9,no,
-L0462,E060,total,Distribution pole and feeder costs moved to Docket 58028,transferred,transferred,17500000,exact,S022,9,no,Moved to the Beryl case and included there (58028 application total); not denied
-L0463,E060,total,Carrying cost reduction for the $17.5M moved to Docket 58028,transferred,transferred,1818046,exact,S022,11,no,"Finding of fact 44; carrying costs, not restoration cost"
+L0458,E059,total,Total Incurred,requested,gross_total,39600000,approximate,S021,printed p.8 (PDF p.11),yes,Distribution only
+L0459,E060,total,"Distribution SRCs to be securitized, incl. carrying costs",final_approved,approved_amount,396325134,exact,S022,9,yes,Includes carrying costs
+L0460,E060,total,Transmission SRCs reasonable and necessary,final_approved,approved_amount,28864500,exact,S022,9,yes,
+L0461,E060,total,Black-box settlement reduction,disallowed,disallowance,10000000,exact,S022,9,yes,
+L0462,E060,total,Distribution pole and feeder costs moved to Docket 58028,transferred,transferred,17500000,exact,S022,9,yes,Moved to the Beryl case and included there (58028 application total); not denied
+L0463,E060,total,Carrying cost reduction for the $17.5M moved to Docket 58028,transferred,transferred,1818046,exact,S022,11,yes,"Finding of fact 44; carrying costs, not restoration cost"
 L0464,E061,contractors,Overhead Line (contractors and mutual aid),reported_actual,,7592,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
 L0465,E061,line_clearing,Forestry,reported_actual,,10891,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
 L0466,E061,logistics,"Procurement Cards (meals, lodging)",reported_actual,,11338,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
@@ -484,16 +484,16 @@ L0482,E062,materials,Inventory,reported_actual,,1072,exact,S023,46,no,"Capital a
 L0483,E062,other,Employee Expense,reported_actual,,1792,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
 L0484,E062,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,810217,exact,S023,46,no,
 L0485,E062,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,430303,exact,S023,46,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
-L0486,E063,contractors,Overhead Line (contractors and mutual aid),reported_actual,,17889959,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0487,E063,line_clearing,Forestry,reported_actual,,4771957,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0488,E063,logistics,"Procurement Cards (meals, lodging)",reported_actual,,1012785,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0489,E063,other,Miscellaneous Accounts Payable,reported_actual,,2132724,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0490,E063,payroll,Payroll,reported_actual,,6483547,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0491,E063,payroll,Allocations (payroll overheads),reported_actual,,2453394,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0492,E063,vehicles_fuel,Transportation,reported_actual,,109075,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0493,E063,materials,Inventory,reported_actual,,804011,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0494,E063,other,Employee Expense,reported_actual,,58031,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
-L0495,E063,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,35715483,exact,S023,46,no,
+L0486,E063,contractors,Overhead Line (contractors and mutual aid),reported_actual,,17889959,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0487,E063,line_clearing,Forestry,reported_actual,,4771957,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0488,E063,logistics,"Procurement Cards (meals, lodging)",reported_actual,,1012785,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0489,E063,other,Miscellaneous Accounts Payable,reported_actual,,2132724,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0490,E063,payroll,Payroll,reported_actual,,6483547,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0491,E063,payroll,Allocations (payroll overheads),reported_actual,,2453394,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0492,E063,vehicles_fuel,Transportation,reported_actual,,109075,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0493,E063,materials,Inventory,reported_actual,,804011,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0494,E063,other,Employee Expense,reported_actual,,58031,exact,S023,46,yes,"Capital and incremental O&M, before exclusions"
+L0495,E063,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,35715483,exact,S023,46,yes,
 L0496,E063,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,32235099,exact,S023,46,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
 L0497,E064,contractors,Overhead Line (contractors and mutual aid),reported_actual,,619,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
 L0498,E064,line_clearing,Forestry,reported_actual,,181789,exact,S023,46,no,"Capital and incremental O&M, before exclusions"
@@ -550,16 +550,16 @@ L0548,E068,materials,Inventory,reported_actual,,10624,exact,S024,52,no,"Capital 
 L0549,E068,other,Employee Expense,reported_actual,,2411,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
 L0550,E068,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,2675937,exact,S024,52,no,
 L0551,E068,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,2062936,exact,S024,52,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
-L0552,E069,contractors,Overhead Line (contractors and mutual aid),reported_actual,,35555098,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0553,E069,line_clearing,Forestry,reported_actual,,4914622,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0554,E069,logistics,"Procurement Cards (meals, lodging)",reported_actual,,1579440,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0555,E069,other,Miscellaneous Accounts Payable,reported_actual,,1934989,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0556,E069,payroll,Payroll,reported_actual,,4474633,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0557,E069,payroll,Allocations (payroll overheads),reported_actual,,2871364,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0558,E069,vehicles_fuel,Transportation,reported_actual,,150022,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0559,E069,materials,Inventory,reported_actual,,242760,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0560,E069,other,Employee Expense,reported_actual,,42415,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
-L0561,E069,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,51765343,exact,S024,52,no,
+L0552,E069,contractors,Overhead Line (contractors and mutual aid),reported_actual,,35555098,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0553,E069,line_clearing,Forestry,reported_actual,,4914622,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0554,E069,logistics,"Procurement Cards (meals, lodging)",reported_actual,,1579440,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0555,E069,other,Miscellaneous Accounts Payable,reported_actual,,1934989,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0556,E069,payroll,Payroll,reported_actual,,4474633,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0557,E069,payroll,Allocations (payroll overheads),reported_actual,,2871364,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0558,E069,vehicles_fuel,Transportation,reported_actual,,150022,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0559,E069,materials,Inventory,reported_actual,,242760,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0560,E069,other,Employee Expense,reported_actual,,42415,exact,S024,52,yes,"Capital and incremental O&M, before exclusions"
+L0561,E069,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,51765343,exact,S024,52,yes,
 L0562,E069,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,50795908,exact,S024,52,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
 L0563,E070,contractors,Overhead Line (contractors and mutual aid),reported_actual,,1309345,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
 L0564,E070,line_clearing,Forestry,reported_actual,,106410,exact,S024,52,no,"Capital and incremental O&M, before exclusions"
@@ -616,16 +616,16 @@ L0614,E074,materials,Inventory,reported_actual,,437,exact,S025,78,no,"Capital an
 L0615,E074,other,Employee Expense,reported_actual,,1929,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
 L0616,E074,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,1075538,exact,S025,78,no,
 L0617,E074,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,643622,exact,S025,78,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
-L0618,E075,contractors,Overhead Line (contractors and mutual aid),reported_actual,,6763927,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0619,E075,line_clearing,Forestry,reported_actual,,1209800,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0620,E075,logistics,"Procurement Cards (meals, lodging)",reported_actual,,512905,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0621,E075,other,Miscellaneous Accounts Payable,reported_actual,,198497,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0622,E075,payroll,Payroll,reported_actual,,2448084,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0623,E075,payroll,Allocations (payroll overheads),reported_actual,,965050,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0624,E075,vehicles_fuel,Transportation,reported_actual,,197395,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0625,E075,materials,Inventory,reported_actual,,225888,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0626,E075,other,Employee Expense,reported_actual,,11207,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
-L0627,E075,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,12532753,exact,S025,78,no,
+L0618,E075,contractors,Overhead Line (contractors and mutual aid),reported_actual,,6763927,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0619,E075,line_clearing,Forestry,reported_actual,,1209800,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0620,E075,logistics,"Procurement Cards (meals, lodging)",reported_actual,,512905,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0621,E075,other,Miscellaneous Accounts Payable,reported_actual,,198497,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0622,E075,payroll,Payroll,reported_actual,,2448084,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0623,E075,payroll,Allocations (payroll overheads),reported_actual,,965050,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0624,E075,vehicles_fuel,Transportation,reported_actual,,197395,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0625,E075,materials,Inventory,reported_actual,,225888,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0626,E075,other,Employee Expense,reported_actual,,11207,exact,S025,78,yes,"Capital and incremental O&M, before exclusions"
+L0627,E075,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,12532753,exact,S025,78,yes,
 L0628,E075,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,10230928,exact,S025,78,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
 L0629,E076,contractors,Overhead Line (contractors and mutual aid),reported_actual,,2920820,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
 L0630,E076,line_clearing,Forestry,reported_actual,,684645,exact,S025,78,no,"Capital and incremental O&M, before exclusions"
@@ -682,27 +682,27 @@ L0680,E080,materials,Inventory,reported_actual,,20042,exact,S026,55,no,"Capital 
 L0681,E080,other,Employee Expense,reported_actual,,10430,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
 L0682,E080,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,3666025,exact,S026,55,no,
 L0683,E080,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,3169628,exact,S026,55,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
-L0684,E081,contractors,Overhead Line (contractors and mutual aid),reported_actual,,9687957,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0685,E081,line_clearing,Forestry,reported_actual,,3103512,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0686,E081,logistics,"Procurement Cards (meals, lodging)",reported_actual,,661719,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0687,E081,other,Miscellaneous Accounts Payable,reported_actual,,828219,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0688,E081,payroll,Payroll,reported_actual,,4533786,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0689,E081,payroll,Allocations (payroll overheads),reported_actual,,1672709,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0690,E081,vehicles_fuel,Transportation,reported_actual,,269601,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0691,E081,materials,Inventory,reported_actual,,400547,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0692,E081,other,Employee Expense,reported_actual,,38326,exact,S026,55,no,"Capital and incremental O&M, before exclusions"
-L0693,E081,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,21196376,exact,S026,55,no,
+L0684,E081,contractors,Overhead Line (contractors and mutual aid),reported_actual,,9687957,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0685,E081,line_clearing,Forestry,reported_actual,,3103512,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0686,E081,logistics,"Procurement Cards (meals, lodging)",reported_actual,,661719,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0687,E081,other,Miscellaneous Accounts Payable,reported_actual,,828219,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0688,E081,payroll,Payroll,reported_actual,,4533786,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0689,E081,payroll,Allocations (payroll overheads),reported_actual,,1672709,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0690,E081,vehicles_fuel,Transportation,reported_actual,,269601,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0691,E081,materials,Inventory,reported_actual,,400547,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0692,E081,other,Employee Expense,reported_actual,,38326,exact,S026,55,yes,"Capital and incremental O&M, before exclusions"
+L0693,E081,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,21196376,exact,S026,55,yes,
 L0694,E081,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,17835406,exact,S026,55,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
-L0695,E082,contractors,Overhead Line (contractors and mutual aid),reported_actual,,4890360,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0696,E082,line_clearing,Forestry,reported_actual,,1186586,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0697,E082,logistics,"Procurement Cards (meals, lodging)",reported_actual,,123662,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0698,E082,other,Miscellaneous Accounts Payable,reported_actual,,144355,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0699,E082,payroll,Payroll,reported_actual,,692619,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0700,E082,payroll,Allocations (payroll overheads),reported_actual,,169492,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0701,E082,vehicles_fuel,Transportation,reported_actual,,11358,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0702,E082,materials,Inventory,reported_actual,,9979,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0703,E082,other,Employee Expense,reported_actual,,7960,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
-L0704,E082,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,7236371,exact,S027,54,no,
+L0695,E082,contractors,Overhead Line (contractors and mutual aid),reported_actual,,4890360,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0696,E082,line_clearing,Forestry,reported_actual,,1186586,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0697,E082,logistics,"Procurement Cards (meals, lodging)",reported_actual,,123662,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0698,E082,other,Miscellaneous Accounts Payable,reported_actual,,144355,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0699,E082,payroll,Payroll,reported_actual,,692619,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0700,E082,payroll,Allocations (payroll overheads),reported_actual,,169492,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0701,E082,vehicles_fuel,Transportation,reported_actual,,11358,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0702,E082,materials,Inventory,reported_actual,,9979,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0703,E082,other,Employee Expense,reported_actual,,7960,exact,S027,54,yes,"Capital and incremental O&M, before exclusions"
+L0704,E082,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,7236371,exact,S027,54,yes,
 L0705,E082,total,Total Incremental O&M Deferred Storm Costs (Line 20),requested,deferred_om,7137866,exact,S027,54,no,"Amount charged to the Storm Fund after capital, removal and deductible exclusions"
 L0706,E083,contractors,Overhead Line (contractors and mutual aid),reported_actual,,1835085,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
 L0707,E083,line_clearing,Forestry,reported_actual,,308577,exact,S027,54,no,"Capital and incremental O&M, before exclusions"
@@ -824,39 +824,39 @@ L0822,E115,total,Preliminary Storm Fund charges booked in 2023,reported_actual,p
 L0823,E115,total,Cumulative preliminary Storm Fund charges through CY2023,reported_actual,incremental_om,404787,approximate,S031,7,no,"Derived: sum of 2023 $404,787. Charges booked after 2023 not captured"
 L0824,E116,total,Preliminary Storm Fund charges booked in 2023,reported_actual,partial_period,1160368,approximate,S031,7,no,"Partial: charges booked in this calendar year only (Attachment 3 is headed ""Estimate""). Use the cumulative row for the event"
 L0825,E116,total,Cumulative preliminary Storm Fund charges through CY2023,reported_actual,incremental_om,1160368,approximate,S031,7,no,"Derived: sum of 2023 $1,160,368. Charges booked after 2023 not captured"
-L0826,E117,contractors,Contract Work,requested,,2045552470,exact,S037,Exhibit SMH-1 (PDF p.35),no,"Distribution 1,791,458,722; generation 46,267,385; transmission 207,826,363"
-L0827,E117,logistics,Employee Expenses,requested,,88885188,exact,S037,Exhibit SMH-1 (PDF p.35),no,"Mapped to logistics (travel, lodging, meals); check definition. Distribution 88,515,044"
-L0828,E117,payroll,Labor,requested,,23676427,exact,S037,Exhibit SMH-1 (PDF p.35),no,"Distribution 20,920,630"
-L0829,E117,materials,Materials,requested,,136048723,exact,S037,Exhibit SMH-1 (PDF p.35),no,"Distribution 117,896,594"
-L0830,E117,other,Other,requested,,21899249,exact,S037,Exhibit SMH-1 (PDF p.35),no,
-L0831,E117,payroll,ESL Billings,requested,,30486840,exact,S037,Exhibit SMH-1 (PDF p.35),no,"Affiliate (Entergy Services) billings, mostly labor; mapped to payroll"
-L0832,E117,other,Loaned Resources,requested,,8653674,exact,S037,Exhibit SMH-1 (PDF p.35),no,Resources loaned from other Entergy companies
-L0833,E117,contractors,Uninvoiced Mutual Assistance,requested,,37264720,exact,S037,Exhibit SMH-1 (PDF p.35),no,Accrued mutual assistance not yet invoiced at 3/31/2022
-L0834,E117,estimate_unallocated,Estimated,requested,,150783675,exact,S037,Exhibit SMH-1 (PDF p.35),no,Estimated costs after 3/31/2022
-L0835,E117,total,Total Storm Costs,requested,gross_total,2543251967,exact,S037,Exhibit SMH-1 (PDF p.35),no,"Subtotal of actual categories $2,355,203,572; incurred as of 3/31/2022 $2,392,468,292"
-L0836,E117,total,Hurricane Ida storm costs found prudent,final_approved,approved_amount,2543251967,exact,S039,PDF p.8 fn.3,no,"Footnote recites the separate Quantification Order U-36350 (not downloaded). Includes $150.8M of estimates approved before actuals. Approved with $31,949,864 of remaining Laura/Delta/Zeta/Uri costs (SMH-5) for $2,575,201,831 total. No disallowance"
-L0837,E010,contractors,Contract Work,requested,,120845112,exact,S014,Exhibit RMD-1,no,
-L0838,E010,logistics,Employee Expenses,requested,,4740527,exact,S014,Exhibit RMD-1,no,Mapped to logistics; logistics costs sit inside Distribution
-L0839,E010,payroll,Labor,requested,,5354286,exact,S014,Exhibit RMD-1,no,
-L0840,E010,materials,Materials,requested,,13932960,exact,S014,Exhibit RMD-1,no,
-L0841,E010,other,Other,requested,,3175300,exact,S014,Exhibit RMD-1,no,
-L0842,E010,payroll,ESL Billings,requested,,3615004,exact,S014,Exhibit RMD-1,no,Affiliate (Entergy Services) billings; mapped to payroll
-L0843,E010,other,Loaned Resources,requested,,2814934,exact,S014,Exhibit RMD-1,no,
-L0844,E010,contractors,Uninvoiced Mutual Assistance,requested,,7631486,exact,S014,Exhibit RMD-1,no,
-L0845,E010,estimate_unallocated,Estimated,requested,,21462848,exact,S014,Exhibit RMD-1,no,Estimated costs after 11/30/2024
-L0846,E118,materials,Material,requested,,11890627,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0847,E118,payroll,Payroll,requested,,8863838,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0848,E118,contractors,Contractors,requested,,80387250,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0849,E118,line_clearing,Tree Trimmers,requested,,29733664,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0850,E118,logistics,Staging Areas,requested,,30228527,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0851,E118,logistics,Lodging,requested,,4500100,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0852,E118,logistics,Catering/Food,requested,,6327778,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0853,E118,vehicles_fuel,Fuel/Vehicle,requested,,6954755,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0854,E118,other,Environmental,requested,,3336693,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0855,E118,other,Damage Claims,requested,,84787,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0856,E118,other,Other,requested,,242852,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0857,E118,estimate_unallocated,Estimated remaining costs,requested,,2343753,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0858,E118,total,Total storm costs,requested,gross_total,184894624,exact,S040,Exhibit TL-1 (PDF p.24),no,Includes capital; before jurisdictional allocation
+L0826,E117,contractors,Contract Work,requested,,2045552470,exact,S037,Exhibit SMH-1 (PDF p.35),yes,"Distribution 1,791,458,722; generation 46,267,385; transmission 207,826,363"
+L0827,E117,logistics,Employee Expenses,requested,,88885188,exact,S037,Exhibit SMH-1 (PDF p.35),yes,"Mapped to logistics (travel, lodging, meals); check definition. Distribution 88,515,044"
+L0828,E117,payroll,Labor,requested,,23676427,exact,S037,Exhibit SMH-1 (PDF p.35),yes,"Distribution 20,920,630"
+L0829,E117,materials,Materials,requested,,136048723,exact,S037,Exhibit SMH-1 (PDF p.35),yes,"Distribution 117,896,594"
+L0830,E117,other,Other,requested,,21899249,exact,S037,Exhibit SMH-1 (PDF p.35),yes,
+L0831,E117,payroll,ESL Billings,requested,,30486840,exact,S037,Exhibit SMH-1 (PDF p.35),yes,"Affiliate (Entergy Services) billings, mostly labor; mapped to payroll"
+L0832,E117,other,Loaned Resources,requested,,8653674,exact,S037,Exhibit SMH-1 (PDF p.35),yes,Resources loaned from other Entergy companies
+L0833,E117,contractors,Uninvoiced Mutual Assistance,requested,,37264720,exact,S037,Exhibit SMH-1 (PDF p.35),yes,Accrued mutual assistance not yet invoiced at 3/31/2022
+L0834,E117,estimate_unallocated,Estimated,requested,,150783675,exact,S037,Exhibit SMH-1 (PDF p.35),yes,Estimated costs after 3/31/2022
+L0835,E117,total,Total Storm Costs,requested,gross_total,2543251967,exact,S037,Exhibit SMH-1 (PDF p.35),yes,"Subtotal of actual categories $2,355,203,572; incurred as of 3/31/2022 $2,392,468,292"
+L0836,E117,total,Hurricane Ida storm costs found prudent,final_approved,approved_amount,2543251967,exact,S039,PDF p.8 fn.3,yes,"Footnote recites the separate Quantification Order U-36350 (not downloaded). Includes $150.8M of estimates approved before actuals. Approved with $31,949,864 of remaining Laura/Delta/Zeta/Uri costs (SMH-5) for $2,575,201,831 total. No disallowance"
+L0837,E010,contractors,Contract Work,requested,,120845112,exact,S014,Exhibit RMD-1,yes,
+L0838,E010,logistics,Employee Expenses,requested,,4740527,exact,S014,Exhibit RMD-1,yes,Mapped to logistics; logistics costs sit inside Distribution
+L0839,E010,payroll,Labor,requested,,5354286,exact,S014,Exhibit RMD-1,yes,
+L0840,E010,materials,Materials,requested,,13932960,exact,S014,Exhibit RMD-1,yes,
+L0841,E010,other,Other,requested,,3175300,exact,S014,Exhibit RMD-1,yes,
+L0842,E010,payroll,ESL Billings,requested,,3615004,exact,S014,Exhibit RMD-1,yes,Affiliate (Entergy Services) billings; mapped to payroll
+L0843,E010,other,Loaned Resources,requested,,2814934,exact,S014,Exhibit RMD-1,yes,
+L0844,E010,contractors,Uninvoiced Mutual Assistance,requested,,7631486,exact,S014,Exhibit RMD-1,yes,
+L0845,E010,estimate_unallocated,Estimated,requested,,21462848,exact,S014,Exhibit RMD-1,yes,Estimated costs after 11/30/2024
+L0846,E118,materials,Material,requested,,11890627,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0847,E118,payroll,Payroll,requested,,8863838,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0848,E118,contractors,Contractors,requested,,80387250,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0849,E118,line_clearing,Tree Trimmers,requested,,29733664,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0850,E118,logistics,Staging Areas,requested,,30228527,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0851,E118,logistics,Lodging,requested,,4500100,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0852,E118,logistics,Catering/Food,requested,,6327778,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0853,E118,vehicles_fuel,Fuel/Vehicle,requested,,6954755,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0854,E118,other,Environmental,requested,,3336693,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0855,E118,other,Damage Claims,requested,,84787,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0856,E118,other,Other,requested,,242852,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0857,E118,estimate_unallocated,Estimated remaining costs,requested,,2343753,exact,S040,Exhibit TL-1 (PDF p.24),yes,
+L0858,E118,total,Total storm costs,requested,gross_total,184894624,exact,S040,Exhibit TL-1 (PDF p.24),yes,Includes capital; before jurisdictional allocation
 L0859,E119,materials,Material,requested,,1778153,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0860,E119,payroll,Payroll,requested,,2444167,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0861,E119,contractors,Contractors,requested,,22174077,exact,S040,Exhibit TL-1 (PDF p.24),no,
@@ -869,7 +869,7 @@ L0867,E119,other,Environmental,requested,,1764682,exact,S040,Exhibit TL-1 (PDF p
 L0868,E119,other,Damage Claims,requested,,192899,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0869,E119,other,Other,requested,,192153,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0870,E119,estimate_unallocated,Estimated remaining costs,requested,,236247,exact,S040,Exhibit TL-1 (PDF p.24),no,
-L0871,E119,total,Total storm costs,requested,gross_total,51936778,exact,S040,Exhibit TL-1 (PDF p.24),no,Includes capital; before jurisdictional allocation
+L0871,E119,total,Total storm costs,requested,gross_total,51936778,exact,S040,Exhibit TL-1 (PDF p.24),yes,Includes capital; before jurisdictional allocation
 L0872,E120,materials,Material,requested,,377403,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0873,E120,payroll,Payroll,requested,,789096,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0874,E120,contractors,Contractors,requested,,3278834,exact,S040,Exhibit TL-1 (PDF p.24),no,
@@ -894,43 +894,43 @@ L0892,E121,other,Environmental,requested,,166501,exact,S040,Exhibit TL-1 (PDF p.
 L0893,E121,other,Damage Claims,requested,,65614,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0894,E121,other,Other,requested,,47010,exact,S040,Exhibit TL-1 (PDF p.24),no,
 L0895,E121,total,Total storm costs,requested,gross_total,10493199,exact,S040,Exhibit TL-1 (PDF p.24),no,Includes capital; before jurisdictional allocation
-L0896,E122,materials,Material,requested,,6986002,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0897,E122,payroll,Payroll,requested,,3557156,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0898,E122,contractors,Contractors,requested,,39342199,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0899,E122,line_clearing,Tree Trimmers,requested,,14810332,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0900,E122,logistics,Staging Areas,requested,,17782027,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0901,E122,logistics,Lodging,requested,,1938818,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0902,E122,logistics,Catering/Food,requested,,2165178,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0903,E122,vehicles_fuel,Fuel/Vehicle Costs,requested,,2725540,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0904,E122,other,Environmental,requested,,3273027,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0905,E122,other,Damage Claims,requested,,221705,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0906,E122,other,Other,requested,,247910,exact,S041,Exhibit TL-5 (PDF p.9),no,
-L0907,E122,other,External Billings,requested,,-449074,exact,S041,Exhibit TL-5 (PDF p.9),no,Credit
-L0908,E122,total,Total Ida costs through 3/31/2022,requested,gross_total,92600819,exact,S041,Exhibit TL-5 line 13 (PDF p.9),no,
+L0896,E122,materials,Material,requested,,6986002,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0897,E122,payroll,Payroll,requested,,3557156,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0898,E122,contractors,Contractors,requested,,39342199,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0899,E122,line_clearing,Tree Trimmers,requested,,14810332,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0900,E122,logistics,Staging Areas,requested,,17782027,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0901,E122,logistics,Lodging,requested,,1938818,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0902,E122,logistics,Catering/Food,requested,,2165178,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0903,E122,vehicles_fuel,Fuel/Vehicle Costs,requested,,2725540,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0904,E122,other,Environmental,requested,,3273027,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0905,E122,other,Damage Claims,requested,,221705,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0906,E122,other,Other,requested,,247910,exact,S041,Exhibit TL-5 (PDF p.9),yes,
+L0907,E122,other,External Billings,requested,,-449074,exact,S041,Exhibit TL-5 (PDF p.9),yes,Credit
+L0908,E122,total,Total Ida costs through 3/31/2022,requested,gross_total,92600819,exact,S041,Exhibit TL-5 line 13 (PDF p.9),yes,
 L0909,E122,total,Total Retail Ida Costs,requested,jurisdictional_total,88474871,exact,S041,Exhibit TL-5 line 20 (PDF p.9),no,"After $92K estimate, payroll removed, wholesale share, depreciation and property tax"
 L0910,E123,total,Total Storm Costs,reported_actual,gross_total,17367000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
-L0911,E124,total,Total Storm Costs,reported_actual,gross_total,52630000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
+L0911,E124,total,Total Storm Costs,reported_actual,gross_total,52630000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",yes,Includes capitalized costs; $ millions to 3 decimals
 L0912,E125,total,Total Storm Costs,reported_actual,gross_total,9133000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
 L0913,E126,total,Total Storm Costs,reported_actual,gross_total,7312000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
-L0914,E127,total,Total Storm Costs,reported_actual,gross_total,83846000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
+L0914,E127,total,Total Storm Costs,reported_actual,gross_total,83846000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",yes,Includes capitalized costs; $ millions to 3 decimals
 L0915,E128,total,Total Storm Costs,reported_actual,gross_total,8816000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
 L0916,E129,total,Total Storm Costs,reported_actual,gross_total,16086000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
-L0917,E130,total,Total Storm Costs,reported_actual,gross_total,878401000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
+L0917,E130,total,Total Storm Costs,reported_actual,gross_total,878401000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",yes,Includes capitalized costs; $ millions to 3 decimals
 L0918,E130,total,Incremental restoration costs (10-K cross-check),reported_actual,gross_total_cross_check,880000000,approximate,S044,"Note 2 (Georgia Power, storm damage recovery)",no,"Same cost as the Staff table total, from a second source; do not add. $780M deferred to regulatory asset, $75M capitalized, $25M billed to OATT customers"
-L0919,E131,total,Total Storm Costs,reported_actual,gross_total,29812000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
+L0919,E131,total,Total Storm Costs,reported_actual,gross_total,29812000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",yes,Includes capitalized costs; $ millions to 3 decimals
 L0920,E132,total,Total Storm Costs,reported_actual,gross_total,18614000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
-L0921,E133,total,Total Storm Costs,reported_actual,gross_total,228626000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",no,Includes capitalized costs; $ millions to 3 decimals
+L0921,E133,total,Total Storm Costs,reported_actual,gross_total,228626000,approximate,S042,"Section IV.A table ""Storm Costs Capitalized""",yes,Includes capitalized costs; $ millions to 3 decimals
 L0922,E134,total,Storm Regulatory Asset Balance at 12/31/2025,reported_actual,deferred_om,911591000,approximate,S042,"Section I table ""Company Requested Storm Regulatory Asset and Staff's Recommended Changes""",no,
 L0923,E134,total,Company Requested Storm Regulatory Asset Balance,requested,deferred_om,940689000,approximate,S043,PDF p.2 (STF-NKF-4),no,Includes $29.098M estimated after 12/31/2025
-L0924,E135,payroll,Company Labor,petition_estimate,,34843000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 24,447 + transmission 9,586 + customer operations 810 ($000s)"
-L0925,E135,contractors,Contract Labor - Line Resources,petition_estimate,,476389000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 440,415 + transmission 34,205 + customer operations 1,770 ($000s); printed total used (columns sum $1k different)"
-L0926,E135,line_clearing,Contract Labor - Vegetation Resources,petition_estimate,,80465000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 69,414 + transmission 11,051 + customer operations 0 ($000s)"
-L0927,E135,vehicles_fuel,Fleet,petition_estimate,,2994000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 1,031 + transmission 1,963 + customer operations 0 ($000s)"
-L0928,E135,materials,Materials,petition_estimate,,168303000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 166,283 + transmission 1,963 + customer operations 57 ($000s)"
-L0929,E135,logistics,Staging Sites,petition_estimate,,118998000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 118,998 + transmission 0 + customer operations 0 ($000s)"
-L0930,E135,logistics,Meals/Hotels,petition_estimate,,20552000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 13,628 + transmission 6,924 + customer operations 0 ($000s)"
-L0931,E135,other,Other,petition_estimate,,73128000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 58,774 + transmission 14,283 + customer operations 71 ($000s)"
-L0932,E135,total,Total System Level Storm Restoration Costs,petition_estimate,gross_total,975673000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),no,"Distribution 892,989 + transmission 79,974 + customer operations 2,709 ($000s); printed total used (columns sum $1k different)"
+L0924,E135,payroll,Company Labor,petition_estimate,,34843000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 24,447 + transmission 9,586 + customer operations 810 ($000s)"
+L0925,E135,contractors,Contract Labor - Line Resources,petition_estimate,,476389000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 440,415 + transmission 34,205 + customer operations 1,770 ($000s); printed total used (columns sum $1k different)"
+L0926,E135,line_clearing,Contract Labor - Vegetation Resources,petition_estimate,,80465000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 69,414 + transmission 11,051 + customer operations 0 ($000s)"
+L0927,E135,vehicles_fuel,Fleet,petition_estimate,,2994000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 1,031 + transmission 1,963 + customer operations 0 ($000s)"
+L0928,E135,materials,Materials,petition_estimate,,168303000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 166,283 + transmission 1,963 + customer operations 57 ($000s)"
+L0929,E135,logistics,Staging Sites,petition_estimate,,118998000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 118,998 + transmission 0 + customer operations 0 ($000s)"
+L0930,E135,logistics,Meals/Hotels,petition_estimate,,20552000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 13,628 + transmission 6,924 + customer operations 0 ($000s)"
+L0931,E135,other,Other,petition_estimate,,73128000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 58,774 + transmission 14,283 + customer operations 71 ($000s)"
+L0932,E135,total,Total System Level Storm Restoration Costs,petition_estimate,gross_total,975673000,exact,S045,Culbreth Exhibit 1 line items (GA exhibit PDF p.5),yes,"Distribution 892,989 + transmission 79,974 + customer operations 2,709 ($000s); printed total used (columns sum $1k different)"
 L0933,E136,contractors,Overhead Line,reported_actual,,2231531,exact,S046,Exhibit NG-4-B (also NG-3),no,
 L0934,E136,line_clearing,Forestry,reported_actual,,1292200,exact,S046,Exhibit NG-4-B (also NG-3),no,
 L0935,E136,logistics,Procurement Cards,reported_actual,,200748,exact,S046,Exhibit NG-4-B (also NG-3),no,
@@ -1008,18 +1008,18 @@ L1006,E142,materials,Inventory,reported_actual,,13314,exact,S046,Exhibit NG-10-B
 L1007,E142,other,Employee Expense,reported_actual,,3023,exact,S046,Exhibit NG-10-B (also NG-3),no,
 L1008,E142,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,2904613,exact,S046,Exhibit NG-10-B (also NG-3),no,
 L1009,E142,total,Total Net Incremental O&M Deferred Storm Costs (Line 21),requested,deferred_om,1093455,exact,S046,Exhibit NG-10-B (also NG-3),no,"After capital, cost of removal and deductible exclusions and the Verizon share"
-L1010,E143,contractors,Overhead Line,reported_actual,,14690991,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1011,E143,line_clearing,Forestry,reported_actual,,5855992,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1012,E143,logistics,Procurement Cards,reported_actual,,807093,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1013,E143,other,Miscellaneous Accounts Payable,reported_actual,,383865,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1014,E143,payroll,Payroll,reported_actual,,5616082,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1015,E143,payroll,Allocations,reported_actual,,1455896,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1016,E143,vehicles_fuel,Transportation,reported_actual,,33134,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1017,E143,materials,Inventory,reported_actual,,61345,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1018,E143,other,Employee Expense,reported_actual,,38727,exact,S046,Exhibit NG-11-B (also NG-3),no,
-L1019,E143,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,28943125,exact,S046,Exhibit NG-11-B (also NG-3),no,
+L1010,E143,contractors,Overhead Line,reported_actual,,14690991,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1011,E143,line_clearing,Forestry,reported_actual,,5855992,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1012,E143,logistics,Procurement Cards,reported_actual,,807093,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1013,E143,other,Miscellaneous Accounts Payable,reported_actual,,383865,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1014,E143,payroll,Payroll,reported_actual,,5616082,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1015,E143,payroll,Allocations,reported_actual,,1455896,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1016,E143,vehicles_fuel,Transportation,reported_actual,,33134,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1017,E143,materials,Inventory,reported_actual,,61345,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1018,E143,other,Employee Expense,reported_actual,,38727,exact,S046,Exhibit NG-11-B (also NG-3),yes,
+L1019,E143,total,Total Capital and Incremental O&M Storm Costs (Line 13),reported_actual,gross_total,28943125,exact,S046,Exhibit NG-11-B (also NG-3),yes,
 L1020,E143,total,Total Net Incremental O&M Deferred Storm Costs (Line 21),requested,deferred_om,25224774,exact,S046,Exhibit NG-11-B (also NG-3),no,"After capital, cost of removal and deductible exclusions and the Verizon share"
-L1021,E144,total,Total Capital and Incremental O&M Storm Costs (8 events),reported_actual,gross_total,61562688,exact,S046,"Exhibit NG-3 Line 13, column (j)",no,
+L1021,E144,total,Total Capital and Incremental O&M Storm Costs (8 events),reported_actual,gross_total,61562688,exact,S046,"Exhibit NG-3 Line 13, column (j)",yes,
 L1022,E144,total,Total Net Incremental O&M Deferred Storm Costs (8 events),requested,deferred_om,45076900,exact,S046,"Exhibit NG-3 Line 21, column (j)",no,
 L1023,E145,total,Preliminary Incremental O&M,reported_actual,incremental_om,9608579,approximate,S049,"Appendix 1, column (b)",no,
 L1024,E146,total,Preliminary Incremental O&M,reported_actual,incremental_om,6733090,approximate,S049,"Appendix 1, column (b)",no,
@@ -1037,46 +1037,46 @@ L1035,E157,total,Preliminary Incremental O&M,reported_actual,incremental_om,1861
 L1036,E158,total,Preliminary Incremental O&M,reported_actual,incremental_om,3384568,approximate,S049,"Appendix 1, column (b)",no,
 L1037,E159,total,Preliminary Incremental O&M,reported_actual,incremental_om,7688859,approximate,S049,"Appendix 1, column (b)",no,
 L1038,E160,total,Preliminary Incremental O&M,reported_actual,incremental_om,31328288,approximate,S049,"Appendix 1, column (b)",no,
-L1039,E161,payroll,Employee Labor,reported_actual,,6865986,exact,S051,"Exhibit 1, Total KY Storm Costs",no,"Capital 4,042,158 + O&M 2,823,828"
-L1040,E161,contractors,Contractor Labor,reported_actual,,56133962,exact,S051,"Exhibit 1, Total KY Storm Costs",no,"Capital 41,083,671 + O&M 15,050,291"
-L1041,E161,materials,Materials,reported_actual,,3597460,exact,S051,"Exhibit 1, Total KY Storm Costs",no,"Capital 2,853,862 + O&M 743,598"
-L1042,E161,other,Miscellaneous,reported_actual,,6116427,exact,S051,"Exhibit 1, Total KY Storm Costs",no,"Capital 4,503,877 + O&M 1,612,550"
-L1043,E161,vehicles_fuel,Transportation,reported_actual,,796641,exact,S051,"Exhibit 1, Total KY Storm Costs",no,"Capital 529,108 + O&M 267,533"
-L1044,E161,total,Total KY Storm Costs,reported_actual,gross_total,73510476,exact,S051,Exhibit 1,no,"Capital 53,012,676 + O&M 20,497,800"
-L1045,E161,total,Estimated Amount Considered Normal Operations,non_incremental_removed,non_incremental_adjustment,1120207,exact,S051,Exhibit 1,no,"Labor 617,851, contractor 454,612, transportation 47,744"
+L1039,E161,payroll,Employee Labor,reported_actual,,6865986,exact,S051,"Exhibit 1, Total KY Storm Costs",yes,"Capital 4,042,158 + O&M 2,823,828"
+L1040,E161,contractors,Contractor Labor,reported_actual,,56133962,exact,S051,"Exhibit 1, Total KY Storm Costs",yes,"Capital 41,083,671 + O&M 15,050,291"
+L1041,E161,materials,Materials,reported_actual,,3597460,exact,S051,"Exhibit 1, Total KY Storm Costs",yes,"Capital 2,853,862 + O&M 743,598"
+L1042,E161,other,Miscellaneous,reported_actual,,6116427,exact,S051,"Exhibit 1, Total KY Storm Costs",yes,"Capital 4,503,877 + O&M 1,612,550"
+L1043,E161,vehicles_fuel,Transportation,reported_actual,,796641,exact,S051,"Exhibit 1, Total KY Storm Costs",yes,"Capital 529,108 + O&M 267,533"
+L1044,E161,total,Total KY Storm Costs,reported_actual,gross_total,73510476,exact,S051,Exhibit 1,yes,"Capital 53,012,676 + O&M 20,497,800"
+L1045,E161,total,Estimated Amount Considered Normal Operations,non_incremental_removed,non_incremental_adjustment,1120207,exact,S051,Exhibit 1,yes,"Labor 617,851, contractor 454,612, transportation 47,744"
 L1046,E161,total,Total Regulatory Asset Request (incremental O&M),requested,deferred_om,19377593,exact,S051,Exhibit 1,no,
-L1047,E161,total,Estimated distribution and transmission storm costs (capital and O&M),petition_estimate,gross_total,83000000,approximate,S053,Order p.1-2,no,
-L1048,E162,payroll,Employee Labor,reported_actual,,3562863,exact,S054,"Exhibit 1, Total KY Storm Costs",no,"Capital 1,201,519 + O&M 2,361,344"
-L1049,E162,contractors,Contractor Labor,reported_actual,,11177042,exact,S054,"Exhibit 1, Total KY Storm Costs",no,"Capital 3,586,019 + O&M 7,591,023"
-L1050,E162,materials,Materials,reported_actual,,1232124,exact,S054,"Exhibit 1, Total KY Storm Costs",no,"Capital 873,357 + O&M 358,767"
-L1051,E162,other,Miscellaneous,reported_actual,,579732,exact,S054,"Exhibit 1, Total KY Storm Costs",no,"Capital 309,749 + O&M 269,982; printed total used"
-L1052,E162,vehicles_fuel,Transportation,reported_actual,,506208,exact,S054,"Exhibit 1, Total KY Storm Costs",no,"Capital 244,002 + O&M 262,206"
-L1053,E162,total,Total KY Storm Costs,reported_actual,gross_total,17057969,exact,S054,Exhibit 1,no,"Capital 6,214,647 + O&M 10,843,323"
-L1054,E162,total,Estimated Amount Considered Normal Operations,non_incremental_removed,non_incremental_adjustment,482164,exact,S054,Exhibit 1,no,"Labor 159,805, contractor 308,575, transportation 13,784"
+L1047,E161,total,Estimated distribution and transmission storm costs (capital and O&M),petition_estimate,gross_total,83000000,approximate,S053,Order p.1-2,yes,
+L1048,E162,payroll,Employee Labor,reported_actual,,3562863,exact,S054,"Exhibit 1, Total KY Storm Costs",yes,"Capital 1,201,519 + O&M 2,361,344"
+L1049,E162,contractors,Contractor Labor,reported_actual,,11177042,exact,S054,"Exhibit 1, Total KY Storm Costs",yes,"Capital 3,586,019 + O&M 7,591,023"
+L1050,E162,materials,Materials,reported_actual,,1232124,exact,S054,"Exhibit 1, Total KY Storm Costs",yes,"Capital 873,357 + O&M 358,767"
+L1051,E162,other,Miscellaneous,reported_actual,,579732,exact,S054,"Exhibit 1, Total KY Storm Costs",yes,"Capital 309,749 + O&M 269,982; printed total used"
+L1052,E162,vehicles_fuel,Transportation,reported_actual,,506208,exact,S054,"Exhibit 1, Total KY Storm Costs",yes,"Capital 244,002 + O&M 262,206"
+L1053,E162,total,Total KY Storm Costs,reported_actual,gross_total,17057969,exact,S054,Exhibit 1,yes,"Capital 6,214,647 + O&M 10,843,323"
+L1054,E162,total,Estimated Amount Considered Normal Operations,non_incremental_removed,non_incremental_adjustment,482164,exact,S054,Exhibit 1,yes,"Labor 159,805, contractor 308,575, transportation 13,784"
 L1055,E162,total,Total Regulatory Asset Request (incremental O&M),requested,deferred_om,10361159,exact,S054,Exhibit 1,no,
 L1056,E162,total,Estimated distribution and transmission storm costs (capital and O&M),petition_estimate,gross_total,15900000,approximate,S056,Order p.1-2,no,
-L1057,E163,payroll,Employee Labor,reported_actual,,2343736,exact,S057,"Exhibit 1, Total KY Storm Costs",no,"Capital 1,371,290 + O&M 972,446"
-L1058,E163,contractors,Contractor Labor,reported_actual,,15312893,exact,S057,"Exhibit 1, Total KY Storm Costs",no,"Capital 11,525,163 + O&M 3,787,730"
-L1059,E163,materials,Materials,reported_actual,,2545628,exact,S057,"Exhibit 1, Total KY Storm Costs",no,"Capital 2,420,670 + O&M 124,958"
-L1060,E163,other,Miscellaneous,reported_actual,,1289410,exact,S057,"Exhibit 1, Total KY Storm Costs",no,"Capital 1,203,837 + O&M 85,573"
-L1061,E163,vehicles_fuel,Transportation,reported_actual,,335784,exact,S057,"Exhibit 1, Total KY Storm Costs",no,"Capital 224,614 + O&M 111,170"
-L1062,E163,total,Total KY Storm Costs,reported_actual,gross_total,21827452,exact,S057,Exhibit 1,no,"Capital 16,745,575 + O&M 5,081,877. Includes about $3.8M of projected capital for the 345kV lattice tower (completion Dec 2026), so not all actual"
-L1063,E163,total,Estimated Amount Considered Normal Operations,non_incremental_removed,non_incremental_adjustment,315792,exact,S057,Exhibit 1,no,"Labor 112,150, contractor 190,923, transportation 12,719"
+L1057,E163,payroll,Employee Labor,reported_actual,,2343736,exact,S057,"Exhibit 1, Total KY Storm Costs",yes,"Capital 1,371,290 + O&M 972,446"
+L1058,E163,contractors,Contractor Labor,reported_actual,,15312893,exact,S057,"Exhibit 1, Total KY Storm Costs",yes,"Capital 11,525,163 + O&M 3,787,730"
+L1059,E163,materials,Materials,reported_actual,,2545628,exact,S057,"Exhibit 1, Total KY Storm Costs",yes,"Capital 2,420,670 + O&M 124,958"
+L1060,E163,other,Miscellaneous,reported_actual,,1289410,exact,S057,"Exhibit 1, Total KY Storm Costs",yes,"Capital 1,203,837 + O&M 85,573"
+L1061,E163,vehicles_fuel,Transportation,reported_actual,,335784,exact,S057,"Exhibit 1, Total KY Storm Costs",yes,"Capital 224,614 + O&M 111,170"
+L1062,E163,total,Total KY Storm Costs,reported_actual,gross_total,21827452,exact,S057,Exhibit 1,yes,"Capital 16,745,575 + O&M 5,081,877. Includes about $3.8M of projected capital for the 345kV lattice tower (completion Dec 2026), so not all actual"
+L1063,E163,total,Estimated Amount Considered Normal Operations,non_incremental_removed,non_incremental_adjustment,315792,exact,S057,Exhibit 1,yes,"Labor 112,150, contractor 190,923, transportation 12,719"
 L1064,E163,total,Total Regulatory Asset Request (incremental O&M),requested,deferred_om,4766085,exact,S057,Exhibit 1,no,
-L1065,E163,total,Estimated distribution and transmission storm costs (capital and O&M),petition_estimate,gross_total,27600000,approximate,S059,Order p.1-2,no,
-L1066,E164,payroll_regular,Regular Time,reported_actual,,600264,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1067,E164,payroll_overtime,Overtime,reported_actual,,2884237,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1068,E164,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,3382736,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1069,E164,vehicles_fuel,Total Transportation,reported_actual,,1225092,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1070,E164,logistics,Employee Expenses,reported_actual,,1271546,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1071,E164,other,Other cost category (excl. employee expenses),reported_actual,,12008290,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1072,E164,materials,Total Materials,reported_actual,,1400545,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1073,E164,line_clearing,Forestry / tree contractors,reported_actual,,4794878,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1074,E164,contractors,Outside contracted services (excl. forestry),reported_actual,,35056494,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,Distribution
-L1075,E164,total,Total Restoration Costs,reported_actual,gross_total,62624082,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",no,"Distribution: capital 15,819,045, O&M 45,586,914"
-L1076,E164,materials,Total Materials,reported_actual,,540397,exact,S060,"Sheet ""Exh 4 Feb 10 Ice Storm_T""",no,Transmission
-L1077,E164,contractors,Outside contracted services (excl. forestry),reported_actual,,13268586,exact,S060,"Sheet ""Exh 4 Feb 10 Ice Storm_T""",no,Transmission
-L1078,E164,total,Total Restoration Costs,reported_actual,gross_total,13808983,exact,S060,"Sheet ""Exh 4 Feb 10 Ice Storm_T""",no,"Transmission: capital 10,510,854, O&M 2,638,088"
+L1065,E163,total,Estimated distribution and transmission storm costs (capital and O&M),petition_estimate,gross_total,27600000,approximate,S059,Order p.1-2,yes,
+L1066,E164,payroll_regular,Regular Time,reported_actual,,600264,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1067,E164,payroll_overtime,Overtime,reported_actual,,2884237,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1068,E164,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,3382736,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1069,E164,vehicles_fuel,Total Transportation,reported_actual,,1225092,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1070,E164,logistics,Employee Expenses,reported_actual,,1271546,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1071,E164,other,Other cost category (excl. employee expenses),reported_actual,,12008290,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1072,E164,materials,Total Materials,reported_actual,,1400545,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1073,E164,line_clearing,Forestry / tree contractors,reported_actual,,4794878,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1074,E164,contractors,Outside contracted services (excl. forestry),reported_actual,,35056494,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,Distribution
+L1075,E164,total,Total Restoration Costs,reported_actual,gross_total,62624082,exact,S060,"Sheet ""Exh 3 Feb 10 Ice Storm_Distr""",yes,"Distribution: capital 15,819,045, O&M 45,586,914"
+L1076,E164,materials,Total Materials,reported_actual,,540397,exact,S060,"Sheet ""Exh 4 Feb 10 Ice Storm_T""",yes,Transmission
+L1077,E164,contractors,Outside contracted services (excl. forestry),reported_actual,,13268586,exact,S060,"Sheet ""Exh 4 Feb 10 Ice Storm_T""",yes,Transmission
+L1078,E164,total,Total Restoration Costs,reported_actual,gross_total,13808983,exact,S060,"Sheet ""Exh 4 Feb 10 Ice Storm_T""",yes,"Transmission: capital 10,510,854, O&M 2,638,088"
 L1079,E165,payroll_regular,Regular Time,reported_actual,,162056,exact,S062,"Sheet ""Jan 05 Snow-Ice Distr""",no,Distribution
 L1080,E165,payroll_overtime,Overtime,reported_actual,,550319,exact,S062,"Sheet ""Jan 05 Snow-Ice Distr""",no,Distribution
 L1081,E165,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,399247,exact,S062,"Sheet ""Jan 05 Snow-Ice Distr""",no,Distribution
@@ -1087,18 +1087,18 @@ L1085,E165,materials,Total Materials,reported_actual,,249305,exact,S062,"Sheet "
 L1086,E165,line_clearing,Forestry / tree contractors,reported_actual,,550000,exact,S062,"Sheet ""Jan 05 Snow-Ice Distr""",no,Distribution
 L1087,E165,contractors,Outside contracted services (excl. forestry),reported_actual,,4620257,exact,S062,"Sheet ""Jan 05 Snow-Ice Distr""",no,Distribution
 L1088,E165,total,Total Restoration Costs,reported_actual,gross_total,6896941,exact,S062,"Sheet ""Jan 05 Snow-Ice Distr""",no,"Distribution: capital 1,905,034, O&M 4,860,748"
-L1089,E166,payroll_regular,Regular Time,reported_actual,,142483,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1090,E166,payroll_overtime,Overtime,reported_actual,,748281,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1091,E166,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,535380,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1092,E166,vehicles_fuel,Total Transportation,reported_actual,,155202,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1093,E166,logistics,Employee Expenses,reported_actual,,162263,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1094,E166,other,Other cost category (excl. employee expenses),reported_actual,,37964,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1095,E166,materials,Total Materials,reported_actual,,349410,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1096,E166,line_clearing,Forestry / tree contractors,reported_actual,,994000,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1097,E166,contractors,Outside contracted services (excl. forestry),reported_actual,,4958846,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,Distribution
-L1098,E166,total,Total Restoration Costs,reported_actual,gross_total,8083830,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",no,"Distribution: capital 2,519,485, O&M 5,346,439"
-L1099,E166,contractors,Outside contracted services (excl. forestry),reported_actual,,259918,exact,S062,"Sheet ""Feb 1 Thunderstorm_Trans""",no,Transmission
-L1100,E166,total,Total Restoration Costs,reported_actual,gross_total,259918,exact,S062,"Sheet ""Feb 1 Thunderstorm_Trans""",no,"Transmission: capital 48,235, O&M 187,566"
+L1089,E166,payroll_regular,Regular Time,reported_actual,,142483,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1090,E166,payroll_overtime,Overtime,reported_actual,,748281,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1091,E166,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,535380,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1092,E166,vehicles_fuel,Total Transportation,reported_actual,,155202,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1093,E166,logistics,Employee Expenses,reported_actual,,162263,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1094,E166,other,Other cost category (excl. employee expenses),reported_actual,,37964,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1095,E166,materials,Total Materials,reported_actual,,349410,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1096,E166,line_clearing,Forestry / tree contractors,reported_actual,,994000,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1097,E166,contractors,Outside contracted services (excl. forestry),reported_actual,,4958846,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,Distribution
+L1098,E166,total,Total Restoration Costs,reported_actual,gross_total,8083830,exact,S062,"Sheet ""Feb 15 Thunderstorm_Dist""",yes,"Distribution: capital 2,519,485, O&M 5,346,439"
+L1099,E166,contractors,Outside contracted services (excl. forestry),reported_actual,,259918,exact,S062,"Sheet ""Feb 1 Thunderstorm_Trans""",yes,Transmission
+L1100,E166,total,Total Restoration Costs,reported_actual,gross_total,259918,exact,S062,"Sheet ""Feb 1 Thunderstorm_Trans""",yes,"Transmission: capital 48,235, O&M 187,566"
 L1101,E167,payroll_regular,Regular Time,reported_actual,,156388,exact,S062,"Sheet ""May 16 Thunderstorm_Dist""",no,Distribution
 L1102,E167,payroll_overtime,Overtime,reported_actual,,388524,exact,S062,"Sheet ""May 16 Thunderstorm_Dist""",no,Distribution
 L1103,E167,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,331713,exact,S062,"Sheet ""May 16 Thunderstorm_Dist""",no,Distribution
@@ -1109,15 +1109,15 @@ L1107,E167,materials,Total Materials,reported_actual,,174319,exact,S062,"Sheet "
 L1108,E167,line_clearing,Forestry / tree contractors,reported_actual,,840797,exact,S062,"Sheet ""May 16 Thunderstorm_Dist""",no,Distribution
 L1109,E167,contractors,Outside contracted services (excl. forestry),reported_actual,,2578616,exact,S062,"Sheet ""May 16 Thunderstorm_Dist""",no,Distribution
 L1110,E167,total,Total Restoration Costs,reported_actual,gross_total,4651950,exact,S062,"Sheet ""May 16 Thunderstorm_Dist""",no,"Distribution: capital 1,398,871, O&M 3,135,007"
-L1111,E168,payroll_regular,Regular Time,reported_actual,,157132,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1112,E168,payroll_overtime,Overtime,reported_actual,,279096,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1113,E168,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,194088,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1114,E168,vehicles_fuel,Total Transportation,reported_actual,,105341,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1115,E168,logistics,Employee Expenses,reported_actual,,46705,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1116,E168,other,Other cost category (excl. employee expenses),reported_actual,,30663,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1117,E168,materials,Total Materials,reported_actual,,64298,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1118,E168,line_clearing,Forestry / tree contractors,reported_actual,,301938,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1119,E168,contractors,Outside contracted services (excl. forestry),reported_actual,,917960,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,Distribution
-L1120,E168,total,Total Restoration Costs,reported_actual,gross_total,2097222,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,"Distribution: capital 555,849, O&M 1,518,161"
+L1111,E168,payroll_regular,Regular Time,reported_actual,,157132,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1112,E168,payroll_overtime,Overtime,reported_actual,,279096,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1113,E168,payroll,"Fringes, incentives, fleet construction and other overheads",reported_actual,,194088,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1114,E168,vehicles_fuel,Total Transportation,reported_actual,,105341,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1115,E168,logistics,Employee Expenses,reported_actual,,46705,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1116,E168,other,Other cost category (excl. employee expenses),reported_actual,,30663,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1117,E168,materials,Total Materials,reported_actual,,64298,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1118,E168,line_clearing,Forestry / tree contractors,reported_actual,,301938,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1119,E168,contractors,Outside contracted services (excl. forestry),reported_actual,,917960,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
+L1120,E168,total,Total Restoration Costs,reported_actual,gross_total,2097222,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,"Distribution: capital 555,849, O&M 1,518,161"
 L1121,E169,total,Incremental O&M storm costs (Exhibit A total),requested,incremental_om,24708000,approximate,S063,Exhibit A (PDF p.6),no,Stated in $ thousands
 L1122,E170,total,Deferred storm O&M expense,requested,deferred_om,52000000,approximate,S064,PDF p.5,no,
