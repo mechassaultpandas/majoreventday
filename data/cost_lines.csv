@@ -1118,6 +1118,6 @@ L1116,E168,other,Other cost category (excl. employee expenses),reported_actual,,
 L1117,E168,materials,Total Materials,reported_actual,,64298,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
 L1118,E168,line_clearing,Forestry / tree contractors,reported_actual,,301938,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
 L1119,E168,contractors,Outside contracted services (excl. forestry),reported_actual,,917960,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,Distribution
-L1120,E168,total,Total Restoration Costs,reported_actual,gross_total,2097222,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",no,"Distribution: capital 555,849, O&M 1,518,161"
+L1120,E168,total,Total Restoration Costs,reported_actual,gross_total,2097222,exact,S061,"Sheet ""Dec 18-Thunder_Distr""",yes,"Distribution: capital 555,849, O&M 1,518,161"
 L1121,E169,total,Incremental O&M storm costs (Exhibit A total),requested,incremental_om,24708000,approximate,S063,Exhibit A (PDF p.6),no,Stated in $ thousands
 L1122,E170,total,Deferred storm O&M expense,requested,deferred_om,52000000,approximate,S064,PDF p.5,no,
