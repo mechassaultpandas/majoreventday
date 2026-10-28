@@ -42,6 +42,7 @@ def estimate_vs_final(con):
         SELECT event_id, utility, storm_name, stage, amount
         FROM cost_lines_full
         WHERE category = 'total' AND stage IN ('petition_estimate', 'final_approved')
+          AND total_role IN ('gross_total', 'approved_amount')
     """)
     if df.empty:
         return df
@@ -71,16 +72,17 @@ def cost_per_customer(con):
     df = q(con, f"""
         SELECT event_id, utility, storm_name, storm_year, customers_affected, customers_measure, customers_precision, amount AS total_usd
         FROM cost_lines_full
-        WHERE category = 'total' AND stage IN {BREAKDOWN_STAGES} AND customers_affected IS NOT NULL
+        WHERE category = 'total' AND total_role = 'gross_total' AND stage IN {BREAKDOWN_STAGES} AND customers_affected IS NOT NULL
     """)
     if df.empty:
         return df
     df["usd_per_customer"] = df["total_usd"] / df["customers_affected"]
     df["caveat"] = df["customers_precision"].map({
         "lower_bound": "customer count is a lower bound, so this is an upper bound",
+        "upper_bound": "customer count is an upper bound, so this is a lower bound",
         "approximate": "approximate customer count",
         "exact": "",
-    })
+    }).fillna("")
     df["comparable_with_other_years"] = df["storm_year"].apply(lambda y: "nominal dollars; adjust for inflation before comparing" if y < 2020 else "")
     return df.sort_values(["customers_measure", "usd_per_customer"])
 

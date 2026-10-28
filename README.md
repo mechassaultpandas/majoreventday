@@ -11,7 +11,8 @@ Four CSV files in `data/` are the system of record. The database in `outputs/` i
 | `data/sources.csv` | Source document | Docket filings, orders, reports and articles, with URL and date |
 | `data/events.csv` | Utility per storm | Who, which storm, scale of outage, regulatory status |
 | `data/cost_lines.csv` | Cost figure | One amount for one category at one stage, with its source and page |
-| `data/categories.csv` | Standard category | Maps each utility's own category names to the standard set |
+| `data/categories.csv` | Standard category | Maps each utility's own category names to the standard set, and each category to a comparison bucket |
+| `data/stages.csv`, `data/total_roles.csv` | Code | Allowed values for `stage` and `total_role` |
 
 Costs sit in long format (one row per figure) because every state and utility reports different categories and different stages. The `stage` field separates a petition estimate from a final approved figure, so estimate-versus-actual comparisons fall out naturally.
 
@@ -27,13 +28,24 @@ Costs sit in long format (one row per figure) because every state and utility re
 | `materials` | Materials and supplies |
 | `vehicles_fuel` | Vehicles, fleet and fuel |
 | `other` | Anything else, including affiliate payroll |
+| `estimate_unallocated` | Estimated costs not yet booked to a cost type (left out of shares) |
 | `total` | Total restoration cost when no breakdown exists |
 
 If a filing uses a category that does not fit cleanly, record it under its closest code and copy the filing's own wording into `category_as_filed`.
 
+## Comparison buckets
+
+Filers split costs differently, so each category also belongs to one of five buckets (the `bucket` column of `categories.csv`): `labor`, `contractors_incl_veg`, `materials`, `vehicles_fuel` and `logistics_other`. Compare storms across utilities at bucket level. Vegetation sits with contractors because CT and TX don't report it separately.
+
+## Total roles
+
+A single event often has several `total` lines: the gross cost, an approved amount, a disallowance, a deferred O&M figure. `total_role` (in `cost_lines.csv`, blank on category lines) says which is which, so they don't get added together. The codes are in `data/total_roles.csv`. For cross-storm comparisons, use `gross_total`. `load.py` checks that category lines add up to the `gross_total` for the same event, stage and source.
+
 ## Stages
 
-`petition_estimate`, `testimony_update`, `requested`, `final_approved`, `disallowed`, `non_incremental_removed`.
+`petition_estimate`, `testimony_update`, `requested`, `interim_charge_approved`, `final_approved`, `reported_actual`, `disallowed`, `non_incremental_removed`, `transferred`.
+
+`transferred` is for costs a settlement or order moves to another proceeding (for example a later rate case). They are neither approved nor denied, so don't record them as `disallowed`.
 
 ## Verification
 
