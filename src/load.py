@@ -115,12 +115,39 @@ def validate(categories, stages, total_roles, sources, events, lines):
     return errors, warnings
 
 
-def build(categories, stages, total_roles, sources, events, lines):
+def validate_storm_response(rows, events, sources):
+    """Storm response facts (pre-staging, crews, trouble spots): one optional row per event."""
+    errors = []
+    event_ids = {e["event_id"] for e in events}
+    source_ids = {s["source_id"] for s in sources}
+    seen = set()
+    for r in rows:
+        ev = r["event_id"]
+        if ev in seen:
+            errors.append(f"storm_response: duplicate event_id {ev}")
+        seen.add(ev)
+        if ev not in event_ids:
+            errors.append(f"storm_response: event_id '{ev}' not in events")
+        if r["source_id"] not in source_ids:
+            errors.append(f"storm_response {ev}: source_id '{r['source_id']}' not in sources")
+        if r["prestage_notice"] not in {"yes", "no"} or (r["prestage_notice"] == "yes") != bool(r["prestage_notice_date"]):
+            errors.append(f"storm_response {ev}: prestage_notice must be yes with a date, or no without one")
+        if r["filing_says_underperformed"] not in {"yes", ""}:
+            errors.append(f"storm_response {ev}: filing_says_underperformed must be yes or blank")
+        if r["verified"] not in {"yes", "no"}:
+            errors.append(f"storm_response {ev}: verified must be yes or no")
+        for k in ("erp_level_initial", "erp_level_highest", "outage_events", "non_outage_events", "customers_affected", "line_resources", "cost_per_event_usd"):
+            if r[k] and not r[k].isdigit():
+                errors.append(f"storm_response {ev}: {k} '{r[k]}' is not a whole number")
+    return errors
+
+
+def build(categories, stages, total_roles, sources, events, lines, storm_response):
     # Build in a local temp folder, then copy: SQLite can fail on synced or mounted folders.
     DB.parent.mkdir(exist_ok=True)
     tmp = Path(tempfile.mkdtemp()) / DB.name
     con = sqlite3.connect(tmp)
-    for name, rows in (("categories", categories), ("stages", stages), ("total_roles", total_roles), ("sources", sources), ("events", events), ("cost_lines", lines)):
+    for name, rows in (("categories", categories), ("stages", stages), ("total_roles", total_roles), ("sources", sources), ("events", events), ("cost_lines", lines), ("storm_response", storm_response)):
         cols = list(rows[0].keys())
         con.execute(f"CREATE TABLE {name} ({', '.join(cols)})")
         con.executemany(f"INSERT INTO {name} VALUES ({', '.join('?' for _ in cols)})", [[r[c] if r[c] != "" else None for c in cols] for r in rows])
@@ -142,7 +169,9 @@ def build(categories, stages, total_roles, sources, events, lines):
 
 def main():
     tables = [read(n) for n in ("categories.csv", "stages.csv", "total_roles.csv", "sources.csv", "events.csv", "cost_lines.csv")]
+    storm_response = read("storm_response.csv")
     errors, warnings = validate(*tables)
+    errors += validate_storm_response(storm_response, tables[4], tables[3])
     for w in warnings:
         print(f"warning: {w}")
     if errors:
@@ -150,7 +179,7 @@ def main():
             print(f"ERROR: {e}")
         print(f"\n{len(errors)} error(s). Database not built.")
         sys.exit(1)
-    build(*tables)
+    build(*tables, storm_response)
     print(f"Built {DB.relative_to(ROOT)}: {len(tables[3])} sources, {len(tables[4])} events, {len(tables[5])} cost lines.")
 
 

@@ -13,6 +13,7 @@ Four CSV files in `data/` are the system of record. The database in `outputs/` i
 | `data/cost_lines.csv` | Cost figure | One amount for one category at one stage, with its source and page |
 | `data/categories.csv` | Standard category | Maps each utility's own category names to the standard set, and each category to a comparison bucket |
 | `data/stages.csv`, `data/total_roles.csv` | Code | Allowed values for `stage` and `total_role` |
+| `data/storm_response.csv` | Utility per storm (optional) | How the utility prepared and what it faced: pre-staging notice, ERP level, line resources, trouble spots, cost per trouble spot |
 
 Costs sit in long format (one row per figure) because every state and utility reports different categories and different stages. The `stage` field separates a petition estimate from a final approved figure, so estimate-versus-actual comparisons fall out naturally.
 
@@ -46,6 +47,18 @@ A single event often has several `total` lines: the gross cost, an approved amou
 `petition_estimate`, `testimony_update`, `requested`, `interim_charge_approved`, `final_approved`, `reported_actual`, `disallowed`, `non_incremental_removed`, `transferred`.
 
 `transferred` is for costs a settlement or order moves to another proceeding (for example a later rate case). They are neither approved nor denied, so don't record them as `disallowed`.
+
+## Storm response
+
+`storm_response.csv` holds the operational side of a storm, one row per event, where a filing reports it. It is separate from costs so cost lines stay one figure per row.
+
+- `prestage_notice` / `prestage_notice_date`: whether the utility formally notified the regulator that it was pre-staging crews, and when.
+- `erp_level_initial` / `erp_level_highest`: the emergency response plan level declared at the start and the most severe level reached. In Eversource's plan, 5 is the least severe and 1 the most.
+- `outage_events` / `non_outage_events`: trouble spots with and without customer outages. `line_resources`: line crews or line workers as the filing counts them.
+- `cost_per_event_usd`: the utility's own cost per trouble spot, as filed.
+- `filing_says_underperformed`: `yes` only where the filing itself says the storm or its damage fell short of the forecast. Never inferred.
+
+So far it covers the 43 Connecticut storms in PURA Docket 25-12-13 (S013, Appendix C).
 
 ## Verification
 

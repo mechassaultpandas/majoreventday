@@ -1,0 +1,44 @@
+event_id,work_order,prestage_notice,prestage_notice_date,erp_level_initial,erp_level_highest,outage_events,non_outage_events,customers_affected,line_resources,cost_per_event_usd,filing_says_underperformed,source_id,page,verified,notes
+E013,MS18H011,no,,,,1460,1566,90298,114,1675,,S013,PDF p.154 (App. C),no,No ERP activation and no prestaging notice. Line resources given as '114 line worker crews (or line resources)'.
+E014,MS19A011,yes,2019-01-17,4,4,2020,1864,78502,567,4057,,S013,PDF p.155 (App. C),no,
+E015,MS19C011,yes,2019-02-25,5,5,1758,1709,89398,289,2032,,S013,PDF p.155 (App. C),no,
+E016,MS19G011,no,,5,5,2998,2434,120295,396,2132,,S013,PDF p.155 (App. C),no,"ERP Level 5 declared Oct 16, 2019 without a prestaging notice."
+E017,MS19H011,yes,2019-10-31,5,5,3562,2413,176994,654,3914,,S013,PDF p.156 (App. C),no,
+E018,MS20B011,yes,2020-04-13,4,4,2501,2190,131410,377,4151,,S013,PDF p.156 (App. C),no,
+E019,MS20C011,yes,2020-07-31,4,2,26432,12562,1183961,2555,5947,,S013,PDF p.157 (App. C),yes,"Tropical Storm Isaias. Escalated to ERP Level 2 by Aug 6, 2020. Filing says winds were higher than forecast in the east."
+E020,MS20D011,yes,2020-08-27,5,5,1806,1684,122112,625,6182,,S013,PDF p.157 (App. C),no,
+E021,MS20E011,no,,5,5,1176,925,94237,386,2090,,S013,PDF p.158 (App. C),no,ERP Level 5 declared without a prestaging notice.
+E022,MS20F011,no,,5,5,1103,1088,56412,304,1888,,S013,PDF p.158 (App. C),no,ERP Level 5 declared without a prestaging notice.
+E023,MS20H011,no,,5,5,1520,1315,70218,450,2221,,S013,PDF p.159 (App. C),no,ERP Level 5 declared without a prestaging notice.
+E024,MS20J011,yes,2020-11-16,5,5,2254,1901,91799,599,2691,,S013,PDF p.159 (App. C),no,
+E025,MS20K011,yes,2020-11-27,5,5,1445,1062,68454,644,4148,,S013,PDF p.159 (App. C),no,
+E026,MS20L011/MN20L011,yes,2020-12-03,5,5,492,342,34713,256,6647,,S013,PDF p.160 (App. C),no,
+E027,MS20N011,yes,2020-12-22,5,4,2017,973,83823,901,6941,,S013,PDF p.160 (App. C),no,"A second prestaging notice on Dec 22, 2020 escalated to ERP Level 4."
+E028,MS21A011,yes,2021-01-31,4,4,288,362,17628,336,15518,,S013,PDF p.160 (App. C),no,
+E029,MS21C011,no,,5,5,1610,1312,94086,539,2874,,S013,PDF p.161 (App. C),no,"ERP Level 5 implemented Mar 2, 2021 without a prestaging notice. Filing says '539-line workers'."
+E030,MS21F011/MN21E011,yes,2021-07-04,4,4,2079,1629,117995,276,3788,,S013,PDF p.161 (App. C),no,
+E031,MS21G011/MS21H011/MN21F011,yes,2021-07-04,,,863,826,34031,496,13364,,S013,PDF p.162 (App. C),no,Tropical Storm Elsa. PURA notes the prestaging notice appears to be the same one filed for E030; level not stated.
+E032,MS21K011,yes,2021-08-19,4,2,2510,2020,109066,2539,30595,,S013,PDF p.162 (App. C),yes,"Tropical Storm Henri. Notice at Level 4; escalated to Level 3 (Aug 20) and Level 2 (Aug 21, expecting 625,000-870,000 customer outages); all warnings cancelled by 4:54 pm Aug 22; back to Level 4 by 5:30 pm. Underperformed flag left blank: the decision reports the cancelled warnings but does not itself say the storm fell short (Con Ed's NY testimony does)."
+E033,MN21K011,no,,5,5,1644,1223,69839,297,3080,,S013,PDF p.163 (App. C),no,"Ida aftermath. ERP Level 5 declared Sep 2, 2021 without a prestaging notice. Filing says '1,223 nonout events'."
+E034,MS21L011,no,,5,5,1407,1159,68981,376,4428,,S013,PDF p.163 (App. C),no,"ERP Level 5 declared Oct 26, 2021 without a prestaging notice."
+E035,MS21M011,no,,,,1565,1040,85287,,2453,,S013,PDF p.164 (App. C),no,No ERP declared. Crews 'secured from 53 vendors'; no line resource count given.
+E036,MN21P011,no,,,,325,347,22331,,6068,,S013,PDF p.164 (App. C),no,No ERP declared. Crews 'secured from 33 vendors'.
+E037,MS22A011,yes,2022-01-14,5,5,577,351,19249,386,11778,,S013,PDF p.164 (App. C),no,"Decision text dates the notice 'January 14, 2020' and the ERP start 'January 17, 2020'; the storm was Jan 16-17, 2022, so 2022 is assumed."
+E038,MS22B011,yes,2022-01-25,5,5,105,80,5143,681,159450,yes,S013,PDF p.165 (App. C),yes,Forecast up to 10 inches of snow and 50-55 mph gusts; 'the winds did not reach the 50-55 mph gusts that were forecasted'. PURA fn.66 (p.76) treats it as an outlier.
+E039,MS22C011,yes,2022-02-16,5,5,1066,672,51945,462,6303,,S013,PDF p.165 (App. C),no,
+E040,MS22E011,yes,2022-03-11,5,5,687,404,33926,420,12731,,S013,PDF p.166 (App. C),no,
+E041,MS22G011,yes,2022-10-12,5,5,245,315,15103,354,12851,,S013,PDF p.166 (App. C),no,
+E042,MS22H011,yes,2022-11-10,5,5,647,405,39282,358,9629,,S013,PDF p.166 (App. C),no,
+E043,MS22J011,yes,2022-11-29,5,5,1071,808,63648,420,6295,,S013,PDF p.167 (App. C),no,
+E044,MS22K011,yes,2022-12-20,5,5,5195,2921,261544,592,7612,,S013,PDF p.167 (App. C),yes,"Decision text reads '5,195 outage events and 2,921 outage events'; the second figure is taken as non-outage events."
+E045,MS23B011,yes,2023-01-24,5,5,111,251,8695,361,33435,,S013,PDF p.168 (App. C),no,
+E046,MN23B011,no,,,,869,866,65306,,3151,,S013,PDF p.168 (App. C),no,No ERP declared; no line resource count given.
+E047,MS23C011,no,,,,634,557,27367,,5348,,S013,PDF p.169 (App. C),no,"No ERP declared. 'ordered 50 crews to supplement the normal crew contingent'. PURA disallowed $634,000 of travel and standby costs (p.77)."
+E048,MS23D011,yes,2023-02-27,5,5,32,89,2261,407,49587,yes,S013,PDF p.169 (App. C),yes,"'neither the storm, nor the expected damages materialized as forecasted'."
+E049,MS23E011,yes,2023-03-02,5,5,218,376,12717,319,8998,,S013,PDF p.169 (App. C),no,
+E050,MS23F011,yes,2023-03-10,5,4,1155,920,49492,887,28675,yes,S013,PDF p.170 (App. C),yes,"Raised to ERP Level 4 on Mar 13, 2023. 'neither the storm nor the system damage materialized to the level of severity predicted by the Company'."
+E051,MN23T011,no,,,,946,1063,70169,,,,S013,PDF p.170 (App. C),no,No ERP declared; no line resource count or cost per event given.
+E052,MN23AB011,no,,,,1174,1255,115605,,1945,,S013,PDF p.171 (App. C),no,No ERP declared. PURA ruled the event ineligible (Table 11).
+E053,MS23G011,yes,2023-09-12,4,4,73,139,3144,485,55167,yes,S013,PDF p.171 (App. C),yes,Hurricane Lee. 'the event did not materialize at the anticipated level of severity'; gusts stayed below 35 mph.
+E054,MS23H011,yes,2023-12-08,5,5,462,371,27646,411,9383,,S013,PDF p.171 (App. C),no,
+E055,MS23J011,yes,2023-12-15,5,4,4360,2731,235405,685,8033,,S013,PDF p.172 (App. C),yes,"Escalated to ERP Level 4 on Dec 18, 2023 based on actual conditions."
