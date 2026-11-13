@@ -33,3 +33,15 @@ Never publish a finding whose cost lines are not verified.
 - Evidence: PURA cut more than $500M; nearly $400M was carrying charges (S007). AG brief notes contractor timesheet accuracy of about 80% (S008).
 - Tags: regulatory, CT, disallowance, documentation
 - Post-worthy: yes, as a corrective to headline coverage.
+
+## 2026-11-13: Florida logistics share depends on who books the hotel bill
+- Status: in data (unverified lines), needs a check before posting
+- Evidence: Logistics share of gross storm cost: FPL 8-20% (Irma 20%, Ian 18%), Gulf Power Michael 28%, but Duke Energy Florida 4-6% for Irma, Milton, Helene, Debby (S065-S069, S070, S073). DEF's "Employee Expenses" line holds lodging and meals, but crew lodging billed by contractors may sit in DEF's contractor line. Tampa Electric reports logistics combined with other (S074).
+- Tags: logistics, mapping, FL
+- Post-worthy: maybe, only after confirming how each utility books contractor lodging. Otherwise it's an accounting artifact.
+
+## 2026-11-13: Gulf Power's Hurricane Michael cost about $3,050 per affected customer
+- Status: in data (unverified lines)
+- Evidence: Gulf Power Michael gross $427.7M (S068 PDF p.64) for "more than 140,000" customers with outages (S068 PDF p.33). Compare FPL Irma ~$313 (S065), DEF Milton ~$505 (S073), PG&E January-February 2019 storms ~$112 systemwide ($258.5M / 2.3M+, S076).
+- Tags: cost per customer, FL, CA, hurricane, winter storm
+- Post-worthy: yes, as another outlier for the cost-per-customer series. Note customer counts are "more than" figures and measures differ (DEF Milton and Helene are peak out).
